@@ -91,14 +91,14 @@ Early this year, I was forced to do a clean reformat and install of Yosemite.  A
 
 5.  Finally, run `mpd` daemon
 
-  ```
-  mpd
-  ```
+    ~~~
+    mpd
+    ~~~
 
-  And, run `ncmpcpp`
+    And, run `ncmpcpp`
 
-  ```
-  ncmpcpp
-  ```
+    ~~~
+    ncmpcpp
+    ~~~
 
 That's it.  I didn't thought that installing it into Yosemite was that simple. Hope this helps.
