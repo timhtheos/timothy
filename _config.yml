@@ -12,3 +12,7 @@ sass:
 
 excerpt_separator: "\n\n"
 permalink: pretty
+
+collections:
+  pages:
+    output: true
