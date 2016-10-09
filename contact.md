@@ -1,7 +1,6 @@
 ---
 layout: post
 is_contact: true
-permalink: contact
 ---
 
 * Email: me [at] timothyae.com
