@@ -36,7 +36,7 @@ The primary purpose of this site shall be my personal wiki of some of the things
 
 ---
 
-### Other contents might be of the following topics:
+## Other contents might be of the following topics:
 
 1. Theology
   - yes, I love theology and *Theology Matters*
