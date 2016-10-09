@@ -59,7 +59,7 @@ I have a lot of installed vim plugins on my local, but I only use some of it. Th
 
   The above will become
 
-  ~~~ .md_code_block
+  ```
   <!DOCTYPE html>
   <html lang=en>
   <head>
@@ -70,7 +70,7 @@ I have a lot of installed vim plugins on my local, but I only use some of it. Th
     
   </body>
   </html>
-  ~~~
+  ```
 
 12. Rstacruz's [sparkup](https://github.com/rstacruz/sparkup) - Similar to emmet but can do more.  For examples, see [here](https://github.com/rstacruz/sparkup#examples).
 
