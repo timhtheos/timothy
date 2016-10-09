@@ -1,10 +1,5 @@
 <div class="wrapper">
   {% include menu-main.html %}
-  {% if page.is_contact == true %}
-  <div class="container content contact">
-    {{ content }}
-  </div>
-  {% else %}
   <div class="container content">
     <h1>
       {{ page.title }}
@@ -12,5 +7,4 @@
     </h1>
     {{ content }}
   </div>
-  {% endif %}
 </div>
