@@ -1,8 +1,10 @@
 ---
-layout: post
-is_contact: true
+layout: page
+title: Contact Information
 permalink: contact/
 ---
+
+## Email, Telephone
 
 * Email: contact [at] timothyae.com
 * Phone: (+63) 909-9999-XXX
@@ -14,6 +16,8 @@ permalink: contact/
 > Cebu City,
 > Cebu,
 > Philippines 6000
+
+---
 
 ## Hometown Address
 

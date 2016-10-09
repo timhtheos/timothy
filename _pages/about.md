@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: About
 permalink: about/
 ---
@@ -13,6 +13,8 @@ I am a devout Augustinian, a 5-point staunch Calvinist; and a trying hard, alway
 My hobbies include PHP, Linux, Bash, Drupal, CI, mixed with Theology, Law, Jurisprudence, among others.
 
 I am currently working online as a Drupal Engineer/Developer, and the same time, I am a student of Reformed Theology.
+
+---
 
 ## This Site
 
@@ -31,6 +33,8 @@ The primary purpose of this site shall be my personal wiki of some of the things
 
 4. Markdown (md)
   - I just want to master markdown which is very easy on constant use, so this site uses it, and I don't have fancy editors, in fact, I wrote and will write all contents of this site via an editor *vim*, and not from site admin */node/add/article*
+
+---
 
 ### Other contents might be of the following topics:
 
