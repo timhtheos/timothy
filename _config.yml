@@ -17,4 +17,8 @@ collections:
   pages:
     output: true
 
-disqus_shortname: timhtheos
+disqus:
+  handle: timhtheos
+  url:
+    old: http://timothyae.com
+    new: https://timothy.sh
