@@ -14,4 +14,5 @@ layout: default
       <div class="post-teaser">{{ post.excerpt }}</div>
     {% endif %}
   </div>
+  ---
 {% endfor %}
