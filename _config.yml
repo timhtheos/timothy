@@ -7,8 +7,8 @@ markdown: kramdown
 tracking_id: #
 
 sass:
-    style: compressed
-    sass_dir: _sass
+  style: compressed
+  sass_dir: _sass
 
 excerpt_separator: "\n\n"
 permalink: pretty

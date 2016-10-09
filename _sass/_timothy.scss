@@ -96,5 +96,17 @@ hr {
   }
 }
 
+@media (min-width: 799px) {
+  .post {
+    position: relative;
+  }
+
+  .post .post-meta {
+    position: absolute;
+    right: 0;
+    top: 7px;
+  }
+}
+
 @import "typography";
 @import "tables";
