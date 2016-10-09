@@ -16,3 +16,5 @@ permalink: pretty
 collections:
   pages:
     output: true
+
+disqus_shortname: timhtheos
