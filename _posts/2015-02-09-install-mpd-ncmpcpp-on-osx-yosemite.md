@@ -26,9 +26,9 @@ Early this year, I was forced to do a clean reformat and install of Yosemite.  A
 
 1.  Install mpd via homebrew
 
-  ~~~ .md_code_block
+  ```
   brew install mpd
-  ~~~
+  ```
 
 2.  Install ncmpcpp
 
