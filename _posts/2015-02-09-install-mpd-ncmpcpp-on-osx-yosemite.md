@@ -50,7 +50,7 @@ Early this year, I was forced to do a clean reformat and install of Yosemite.  A
     touch mpdstate
     ~~~
 
-  or you can execute all together
+    or you can execute all together
 
     ~~~
     cd ~ && mkdir .mpd && cd .mpd && mkdir playlists && touch mpd.conf mpd.db mpd.log mpd.pid mpdstate
