@@ -52,42 +52,42 @@ Early this year, I was forced to do a clean reformat and install of Yosemite.  A
 
   or you can execute all together
 
-  ```
-  cd ~ && mkdir .mpd && cd .mpd && mkdir playlists && touch mpd.conf mpd.db mpd.log mpd.pid mpdstate
-  ```
+    ~~~
+    cd ~ && mkdir .mpd && cd .mpd && mkdir playlists && touch mpd.conf mpd.db mpd.log mpd.pid mpdstate
+    ~~~
 
 4.  Write conf file in `mpd.conf`
 
-  ```
-  music_directory         "~/Music"
-  playlist_directory      "~/.mpd/playlists"
-  db_file                 "~/.mpd/mpd.db"
-  log_file                "~/.mpd/mpd.log"
-  pid_file                "~/.mpd/mpd.pid"
-  state_file              "~/.mpd/mpdstate"
-  auto_update             "yes"
-  auto_update_depth       "2"
-  follow_outside_symlinks "yes"
-  follow_inside_symlinks  "yes"
+    ~~~
+    music_directory         "~/Music"
+    playlist_directory      "~/.mpd/playlists"
+    db_file                 "~/.mpd/mpd.db"
+    log_file                "~/.mpd/mpd.log"
+    pid_file                "~/.mpd/mpd.pid"
+    state_file              "~/.mpd/mpdstate"
+    auto_update             "yes"
+    auto_update_depth       "2"
+    follow_outside_symlinks "yes"
+    follow_inside_symlinks  "yes"
 
-  audio_output {
-      type                  "osx"
-      name                  "CoreAudio"
-      mixer_type            "software"
-  }
+    audio_output {
+        type                  "osx"
+        name                  "CoreAudio"
+        mixer_type            "software"
+    }
 
-  decoder {
-      plugin                "mp4ff"
-      enabled               "no"
-  }
+    decoder {
+        plugin                "mp4ff"
+        enabled               "no"
+    }
 
-  bind_to_address         "127.0.0.1"
-  port                    "6600"
-  
-  user                    "timothy"
-  ```
+    bind_to_address         "127.0.0.1"
+    port                    "6600"
+    
+    user                    "timothy"
+    ~~~
 
-  Change paths to your choice, and the `user` to what you get when you do `whoami` in your shell.
+    Change paths to your choice, and the `user` to what you get when you do `whoami` in your shell.
 
 5.  Finally, run `mpd` daemon
 
