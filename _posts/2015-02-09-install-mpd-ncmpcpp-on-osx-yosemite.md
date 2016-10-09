@@ -32,13 +32,13 @@ Early this year, I was forced to do a clean reformat and install of Yosemite.  A
 
 2.  Install ncmpcpp
 
-  ```
+  ~~~ .md_code_block
   brew install ncmpcpp
-  ```
+  ~~~
 
 3.  Create directories and files
 
-  ```
+  ~~~ .md_code_block
   cd ~
 
   mkdir .mpd
@@ -56,17 +56,17 @@ Early this year, I was forced to do a clean reformat and install of Yosemite.  A
   touch mpd.pid
 
   touch mpdstate
-  ```
+  ~~~
 
   or you can execute all together
 
-  ```
+  ~~~ .md_code_block
   cd ~ && mkdir .mpd && cd .mpd && mkdir playlists && touch mpd.conf mpd.db mpd.log mpd.pid mpdstate
-  ```
+  ~~~
 
 4.  Write conf file in `mpd.conf`
 
-  ```
+  ~~~ .md_code_block
   music_directory         "~/Music"
   playlist_directory      "~/.mpd/playlists"
   db_file                 "~/.mpd/mpd.db"
@@ -93,20 +93,20 @@ Early this year, I was forced to do a clean reformat and install of Yosemite.  A
   port                    "6600"
   
   user                    "timothy"
-  ```
+  ~~~
 
   Change paths to your choice, and the `user` to what you get when you do `whoami` in your shell.
 
 5.  Finally, run `mpd` daemon
 
-  ```
+  ~~~ .md_code_block
   mpd
-  ```
+  ~~~
 
   And, run `ncmpcpp`
 
-  ```
+  ~~~ .md_code_block
   ncmpcpp
-  ```
+  ~~~
 
 That's it.  I didn't thought that installing it into Yosemite was that simple. Hope this helps.
