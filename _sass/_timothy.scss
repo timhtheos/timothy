@@ -96,6 +96,9 @@ hr {
   }
 }
 
+@import "typography";
+@import "tables";
+
 @media (min-width: 799px) {
   .post {
     position: relative;
@@ -106,7 +109,8 @@ hr {
     right: 0;
     top: 7px;
   }
-}
 
-@import "typography";
-@import "tables";
+  .post .post-title {
+    width: 600px;
+  }
+}
