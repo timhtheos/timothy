@@ -1,9 +1,14 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-date:   2015-02-12 13:46:40
+date:   2016-10-09
 categories: jekyll update
-permalink: welcome
+permalink: welcome-to-jekyll
+teaser: >
+  This is the first article when I `init` jekyll. After this, contents
+  from my old Drupal 7.x website, are migrated. One of the reason(s) for
+  this is to save hosting fees from Digital Ocean and Vultr, among
+  others.
 ---
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
