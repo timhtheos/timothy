@@ -4,8 +4,8 @@ is_contact: true
 permalink: contact/
 ---
 
-* Email: me [at] timothyae.com
-* Phone: [+91-123123](tel:+91-123123)
+* Email: contact [at] timothyae.com
+* Phone: (+63) 909-9999-XXX
 
 ---
 
@@ -14,6 +14,12 @@ permalink: contact/
 > Cebu City,
 > Cebu,
 > Philippines 6000
+
+## Hometown Address
+
+> Bacolod City,
+> Negros Occidental,
+> Philippines 6100
 
 ---
 
