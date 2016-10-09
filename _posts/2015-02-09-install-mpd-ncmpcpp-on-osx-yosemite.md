@@ -26,29 +26,29 @@ Early this year, I was forced to do a clean reformat and install of Yosemite.  A
 
 1.  Install mpd via homebrew
 
-  ```
+~~~
   brew install mpd
-  ```
+~~~
 
 2.  Install ncmpcpp
 
-  ```
+~~~
   brew install ncmpcpp
-  ```
+~~~
 
 3.  Create directories and files
 
-```
-cd ~
-mkdir .mpd
-cd .mpd
-mkdir playlists
-touch mpd.conf
-touch mpd.db
-touch mpd.log
-touch mpd.pid
-touch mpdstate
-```
+~~~
+  cd ~
+  mkdir .mpd
+  cd .mpd
+  mkdir playlists
+  touch mpd.conf
+  touch mpd.db
+  touch mpd.log
+  touch mpd.pid
+  touch mpdstate
+~~~
 
   or you can execute all together
 
