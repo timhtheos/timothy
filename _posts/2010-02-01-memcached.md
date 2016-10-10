@@ -44,9 +44,9 @@ Memcached should not be underestimated.  Its use will make a big difference for 
 
 1. Install memcached
 
-  ```
-  sudo apt-get install memcached libmemcached-tools
-  ```
+    ```
+    sudo apt-get install memcached libmemcached-tools
+    ```
 
 2. Install memcached php extension using PECL
 
