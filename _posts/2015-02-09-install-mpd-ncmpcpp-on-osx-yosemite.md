@@ -6,6 +6,8 @@ permalink: article/install-mpd-ncmpcpp-on-osx-yosemite
 categories: mpd ncmpcpp unix osx yosemite
 disqus:
   old: true
+  secure: false
+  www: false
   path: article/install-mpd-ncmpcpp-on-osx-yosemite-0
 alias: article/install-mpd-ncmpcpp-on-osx-yosemite-0
 ---
