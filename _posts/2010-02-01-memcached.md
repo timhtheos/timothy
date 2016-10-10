@@ -42,20 +42,21 @@ Memcached should not be underestimated.  Its use will make a big difference for 
 
 ## Ubuntu 11.10 Installation and setup using CLI
 
-1. Install memcached
+1.  Install memcached
 
-    ~~~
+    ~~~~
     sudo apt-get install memcached libmemcached-tools
-    ~~~
+    sudo apt-get install memcached libmemcached-tools
+    ~~~~
 
-2. Install memcached php extension using PECL
+2.  Install memcached php extension using PECL
 
     ~~~
     sudo apt-get install php5-dev php-pear make
     sudo pecl install memcache
     ~~~
 
-3. Edit your `php.ini` file
+3.  Edit your `php.ini` file
 
     ~~~
     sudo vim /etc/php5/apache2/php.ini
@@ -67,14 +68,14 @@ Memcached should not be underestimated.  Its use will make a big difference for 
     extension=memcache.so
     ~~~
 
-4. Restart apache and start memcache
+4.  Restart apache and start memcache
 
     ~~~
     sudo service apache2 restart
     sudo service apache2 restart
     ~~~
 
-5. That's it, you're done. The following are optionals:
+5.  That's it, you're done. The following are optionals:
 
     To check if memcache is running, run
 
@@ -128,7 +129,7 @@ sudo service apache2 restart
 
 ## Use Memcache with Drupal 7.x
 
-1. Edit `php.ini` file.
+1.  Edit `php.ini` file.
 
     ~~~
     sudo vim /etc/php5/apache2/php.ini
@@ -140,9 +141,9 @@ sudo service apache2 restart
     memcache.hash_strategy=consistent
     ~~~
 
-2. Install and activate a drupal module `Drupal Memcache`
+2.  Install and activate a drupal module `Drupal Memcache`
 
-3. Edit settings.php of Drupal isntance to include:
+3.  Edit settings.php of Drupal isntance to include:
 
     ~~~
     $conf['cache_backends'][] = 'sites/all/modules/memcache/memcache.inc';
