@@ -33,7 +33,7 @@ Hence, I have come up with a simple solution.
 1.  You clone the [ghvandalism repository](https://github.com/timhtheos/ghvandalism) on your local.
 2.  You run the bash script with 1 argument, e.g., `TEST`
 
-    ~~~ .md_code_block
+    ~~~
     bash install.sh TEST
     ~~~
 
