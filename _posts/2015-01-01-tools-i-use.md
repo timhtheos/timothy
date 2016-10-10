@@ -5,7 +5,7 @@ date:   2015-01-01
 permalink: tools-i-use
 ---
 
-The tools listed here are the tools I personally use for development, and other matters. I have arranged them in categories, as well as provide information when I start using them, when I can.
+The tools listed here are the tools I personally use for development, and other matters. I have arranged them in categories, as well as provided information (when I can) as to when I started using them.
 
 Here are the following:
 
