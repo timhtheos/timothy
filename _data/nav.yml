@@ -4,5 +4,8 @@
 - name: "Resume"
   link: "/resume"
 
+- name: "Tools"
+  link: "/tools-i-use"
+
 - name: "About"
   link: "/about"
