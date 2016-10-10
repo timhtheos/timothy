@@ -20,8 +20,8 @@ collections:
 disqus:
   handle: timhtheos
   url:
-    old: http://timothyae.com
-    new: https://timothy.sh
+    old: timothyae.com
+    new: timothy.sh
 
 # Alias generator.
 safe: false
