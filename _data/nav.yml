@@ -1,11 +1,14 @@
 - name: "Contact"
-  link: "/contact"
+  link: "/contact/"
 
 - name: "Resume"
-  link: "/resume"
+  link: "/resume/"
 
 - name: "Tools"
-  link: "/tools-i-use"
+  link: "/tools-i-use/"
+
+- name: "Confessions"
+  link: "/confessions/"
 
 - name: "About"
-  link: "/about"
+  link: "/about/"
