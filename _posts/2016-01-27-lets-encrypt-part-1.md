@@ -3,6 +3,7 @@ layout: post
 title: Let's Encrypt - Part 1
 date: 2016-01-27 00:00:00
 permalink: article/lets-encrypt-part-1
+categories: ssl tls "let's encrypt" comodo "positive ssl"
 teaser: >
   I use Comodo's PositiveSSL for this website, timothyae.com.  However,
   after Let's Encrypt has been released and after I used it to 2 of my
