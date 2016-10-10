@@ -22,3 +22,6 @@ disqus:
   url:
     old: http://timothyae.com
     new: https://timothy.sh
+
+# Alias generator.
+safe: false
