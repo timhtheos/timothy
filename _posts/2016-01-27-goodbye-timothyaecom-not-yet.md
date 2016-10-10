@@ -3,7 +3,9 @@ layout: post
 title: Goodbye timothyae.com? Not yet!!!
 date: 2016-01-27 02:00:00
 permalink: article/goodbye-timothyaecom-not-yet
-categories: domain "(dot) sh"
+categories:
+  - domain
+  - (dot) sh
 teaser: >
   After learning yesterday that there exists a (dot) sh domain name, I
   had second thoughts of changing my old and existing domain name,
