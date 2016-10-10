@@ -4,15 +4,27 @@
 <!-- Add Disqus comments (not comment count) -->
 <script type="text/javascript">
     {% if page.disqus.path %}
-    var disqus_use_path = '{{ page.disqus.path }}';
+      var disqus_use_path = '{{ page.disqus.path }}';
     {% else %}
-    var disqus_use_path = '{{ page.permalink }}';
+      var disqus_use_path = '{{ page.permalink }}';
+    {% endif %}
+
+    {% if page.disqus.secure == true %}
+      var disqus_use_protocol = 'https://';
+    {% else %}
+      var disqus_use_protocol = 'http://';
+    {% endif %}
+
+    {% if page.disqus.www == true %}
+      var disqus_use_www = 'www.';
+    {% else %}
+      var disqus_use_www = '';
     {% endif %}
 
     {% if page.disqus.old == true %}
-    var disqus_use_url = '{{ site.disqus.url.old }}/' + disqus_use_path;
+      var disqus_use_url = disqus_use_protocol + disqus_use_www + '{{ site.disqus.url.old }}/' + disqus_use_path;
     {% else %}
-    var disqus_use_url = '{{ site.disqus.url.new }}/' + disqus_use_path;
+      var disqus_use_url = disqus_use_protocol + disqus_use_www + '{{ site.disqus.url.new }}/' + disqus_use_path;
     {% endif %}
 
     var disqus_shortname  = '{{ site.disqus.handle }}';
