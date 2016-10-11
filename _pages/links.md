@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Contact Information
-permalink: contact/
+title: Links
+permalink: links/
 ---
 
 ## Email, Telephone
@@ -32,3 +32,9 @@ permalink: contact/
 1. [LinkedIn](https://ph.linkedin.com/in/timothyae)
 2. [Github](https://github.com/timhtheos)
 3. [Drupal](https://www.drupal.org/u/timhtheos)
+
+---
+
+## Links
+
+---
