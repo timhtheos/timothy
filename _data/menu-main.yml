@@ -1,0 +1,17 @@
+- name: "About"
+  link: "/about/"
+
+- name: "Confessions"
+  link: "/confessions/"
+
+- name: "Resolutions"
+  link: "/resolutions/"
+
+- name: "TIL"
+  link: "/til/"
+
+- name: "Tools"
+  link: "/tools-i-use/"
+
+- name: "Contact"
+  link: "/contact/"

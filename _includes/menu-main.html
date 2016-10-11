@@ -1,15 +1,15 @@
 <div class="navbar container">
   <!-- <a id="author-name" class="alignable pull-left" href="{{ site.url }}{{ site.baseurl }}">{{ site.title }}</a> -->
-  <a id="author-name" class="alignable pull-left" href="/">{{ site.title }}</a>
-  <ul class="alignable pull-right navbar-ul">
-    {% for x in site.data.nav %}
+  <a id="author-name" class="alignable" href="/">{{ site.title }}</a>
+  <ul class="alignable navbar-ul">
+    {% for x in site.data.menu-main %}
       {% if x.name == "Resume" %}
-        <li class="alignable pull-right nav-list"><a href="{{ x.link }}">{{ x.name }}</a>
+        <li class="alignable nav-list"><a href="{{ x.link }}">{{ x.name }}</a>
       {% else %}
-        <li class="alignable pull-right nav-list"><a href="{{ x.link }}">{{ x.name }}</a>
+        <li class="alignable nav-list"><a href="{{ x.link }}">{{ x.name }}</a>
       {% endif %}
 
-      {% if forloop.first == false %}
+      {% if forloop.last == false %}
         /
       {% endif %}
       </li>
