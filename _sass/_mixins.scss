@@ -1,0 +1,30 @@
+/**
+ * Mixin to display flex.
+ */
+@mixin display-flex() {
+  display: -webkit-box;                 /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;                    /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;                 /* TWEENER - IE 10 */
+  display: -webkit-flex;                /* NEW - Chrome */
+  display: flex;                        /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+
+/**
+ * Mixin to flex order.
+ */
+@mixin flex-order($order) {
+  -webkit-box-ordinal-group: #{$order}; /* OLD - iOS 6-, Safari 3.1-6 */
+  -moz-box-ordinal-group: #{$order};    /* OLD - Firefox 19- */
+  -ms-flex-order: #{$order};            /* TWEENER - IE 10 */
+  -webkit-order: #{$order};             /* NEW - Chrome */
+  order: #{$order};                     /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+
+/**
+ * Mixin for other flex properties.
+ */
+@mixin flex($prop, $val) {
+  -webkit-#{$prop}: #{$val};            /* OLD - iOS 6-, Safari 3.1-6 */
+  -moz-#{$prop}: #{$val};               /* OLD - Firefox 19- (buggy but mostly works) */
+  #{$prop}: #{$val};                    /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
