@@ -28,3 +28,26 @@
   -moz-#{$prop}: #{$val};               /* OLD - Firefox 19- (buggy but mostly works) */
   #{$prop}: #{$val};                    /* NEW, Spec - Opera 12.1, Firefox 20+ */
 }
+
+/**
+ * Mixin to generate fontawesome icons.
+ */
+// @mixin iconize($icon, $using: "fa", $position: "before") {
+@mixin iconize($icon, $position: "before") {
+  font-family: inherit;
+
+  @if $position == "before" {
+    @extend .fa;
+    @extend .fa-#{$icon};
+  }
+  @else if $position == "after" {
+    &:after {
+      @extend .fa-#{$icon}:before;
+    }
+  }
+
+  // Reinforce font used before, after.
+  &:#{$position} {
+    font-family: "fontawesome";
+  }
+}
