@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Jekyll! Updated!"
 date:   2016-10-09
 categories: jekyll update
 permalink: welcome-to-jekyll
@@ -58,7 +58,6 @@ The [repository](https://github.com/timhtheos/timothy), is hosted in Github.
 
 Each time I update my repository, a build is triggered in Netlify and
 then my site is built.
-
 
 ## Original `Welcome to Jekyll!` content.
 
