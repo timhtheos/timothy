@@ -27,17 +27,17 @@ respect_, and `Theos`, _God_. My name, therefore and literally means,
 4.  I would love to be involved in CI and deployment.
 5.  I am fond of reading theological books, _before_.
 6.  I am fond of reading law books, and latest jurisprudence from
-    sc.judiciary.gov.ph.  I also listen to a lenghty oral arguments
-    before the SC.
+    sc.judiciary.gov.ph.  I also listen to lenghty oral arguments before
+    the SC.
 7.  I currently study _Reformed_ Theology at Ilo-ilo City.
 
-## This Site
+## This Site (then and now)
 
-**Then**, the purpose of this site has to do with Drupal - Code Driven
+**Then**. The purpose of this site has to do with Drupal - Code Driven
 Development, Site Automation, and Module Development.  Also, I started
 to love Markdown, so I made my old Drupal site to use Markdown.
 
-**Now**, I want to cut server fees, and I just want simplicity, while
+**Now**. I want to cut server fees, and I just want simplicity, while
 keeping Markdown.
 
 ## Other likes
@@ -46,3 +46,18 @@ keeping Markdown.
 2.  **Politics**. I hate it in workplace, but it's everywhere.
 3.  **Law and Jurisprudence**. Reading latest jurisprudence, may make me
     sound arrogant, but never stupid. Let's debate.
+
+## Some thoughts of being me
+
+Don't be like me. I'm hopeless - forever alone, no friend, no family
+(broken family), and has vices.
+
+[//]: # (I am a complicated person. I used to know myself, but now I feel being)
+[//]: # (alienated. The things I loved before, now I hate. The things I hated)
+[//]: # (before, now I love.)
+[//]: # ()
+[//]: # (If I were given the chance to choose who to be, before I was born, I)
+[//]: # (will still choose myself, with some modifications. Two major modification:)
+[//]: # ()
+[//]: # (1.  To have a not-so-perfect family, but at least whole, not broken; and)
+[//]: # (2.  To have siblings.)
