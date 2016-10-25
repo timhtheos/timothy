@@ -5,11 +5,62 @@ date:   2016-10-09
 categories: jekyll update
 permalink: welcome-to-jekyll
 teaser: >
-  This is the first article when I `init` jekyll. After this, contents
-  from my old Drupal 7.x website, are migrated. One of the reason(s) for
-  this is to save hosting fees from Digital Ocean and Vultr, among
-  others.
+  After years of using Drupal 7.x on my personal website, from
+  timothyae.com, to using a secure protocol, and to timothy.sh, I have
+  finally decided, after serveral months of search, to move to Jekyll
+  for my own website, just to save paid cloud servers, among others.
 ---
+
+After years of using Drupal 7.x on my personal website, from
+timothyae.com, to using a secure protocol, and to timothy.sh, I have
+finally decided, after serveral months of searches, to move to Jekyll for
+my own website, just to save paid cloud servers fees, among others.
+
+The following are "the" reasons for my switch:
+
+1.  Static pages.
+
+    Unlike Drupal, Jekyll pages are static html pages. There's no need
+    for sql servers, and other server fine tunings.
+
+2.  Ease of management.
+
+    When in Drupal, we learned to add nodes and pages, first through its
+    UI.  Later on, I decided to automate nodes/pages creation with some
+    tools outside Drupal.
+
+    TLTR; I create Drupal nodes via a plain text editor using markdown.
+
+    With Jekyll, it's the default.
+
+3.  Continuous deployment.
+
+    When in Drupal, I did custom continuous deployment with my own cloud
+    server, custom made git hooks, bash, features, among others.
+
+    With Jekyll, there are free hosting that can be used. One of which is
+    [Github Pages](https://pages.github.com/), and [Netlify](https://www.netlify.com/),
+    among others.
+
+## So, why not github pages?
+
+While Github pages is free, [HTTPS is not supported for Github Pages
+using custom domain names](https://help.github.com/articles/securing-your-github-pages-site-with-https/).
+
+I have seen the advantage of using SSL certificates to my domain names,
+and this is one of the main factors for the switch.
+
+## What am I using then?
+
+I'm using [Netlify](https://www.netlify.com/).
+
+The [repository](https://github.com/timhtheos/timothy), is hosted in Github.
+
+Each time I update my repository, a build is triggered in Netlify and
+then my site is built.
+
+
+## Original `Welcome to Jekyll!` content.
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
