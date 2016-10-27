@@ -9,6 +9,14 @@ alias: what-i-learned-today
 
 ---
 
+`Thu, Oct. 27, '16'` |
+**St. Timothy is teachable.**
+
+To the contrary, _Timothy_, the owner of this website, is not so much teachable.
+TLTR; I'm at WCST at Ilo-ilo City.
+
+---
+
 `Mon, Oct. 10, '16'` |
 **Peter Answers is still live.**
 
