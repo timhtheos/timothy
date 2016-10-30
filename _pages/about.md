@@ -48,9 +48,20 @@ keeping Markdown.
     sound arrogant, but never stupid. Let's debate.
 
 ## Some thoughts of being me
-
 Don't be like me. I'm hopeless - forever alone, no friend, no family
 (broken family), and has vices.
+
+## Other info and whereabouts
+I came from Bacolod City and grew up there, and now currently living in
+Cebu City.
+
+## Social links
+
+1. [LinkedIn](https://ph.linkedin.com/in/timothyae)
+2. [Github](https://github.com/timhtheos)
+3. [Drupal](https://www.drupal.org/u/timhtheos)
+
+---
 
 [//]: # (I am a complicated person. I used to know myself, but now I feel being)
 [//]: # (alienated. The things I loved before, now I hate. The things I hated)
