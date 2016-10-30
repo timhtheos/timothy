@@ -25,3 +25,6 @@ disqus:
 
 # Alias generator.
 safe: false
+
+# Make all future posts unpublished.
+future: false
