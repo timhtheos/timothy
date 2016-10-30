@@ -64,6 +64,14 @@ Resolved, to be mindful of my things, especially my wallet.
 
 ---
 
+---
+Sun, Dec. 27, '15 - 22:10
+---
+```
+Content hidden.
+```
+[//]: # (Resolved, not to do any travel itineraries anymore with friends.)
+
 ~~~
 Sun, Dec. 27, '15
 ~~~
