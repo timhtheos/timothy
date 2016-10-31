@@ -61,8 +61,6 @@ Cebu City.
 2. [Github](https://github.com/timhtheos)
 3. [Drupal](https://www.drupal.org/u/timhtheos)
 
----
-
 [//]: # (I am a complicated person. I used to know myself, but now I feel being)
 [//]: # (alienated. The things I loved before, now I hate. The things I hated)
 [//]: # (before, now I love.)
