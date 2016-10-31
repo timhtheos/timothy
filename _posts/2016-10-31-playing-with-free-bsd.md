@@ -15,6 +15,7 @@ After bla bla bla, I downloaded FreeBSD in a virtual machine format.
 
 When, I get myself familiarized with it, I'll purchase a netbook for it.
 
+<pre>
 ```
 mmmmmm                      mmmmm   mmmm  mmmm
  #       m mm   mmm    mmm   #    # #"   " #   "m
@@ -22,3 +23,4 @@ mmmmmm                      mmmmm   mmmm  mmmm
  #       #     #""""  #""""  #    #     "# #    #
  #       #     "#mm"  "#mm"  #mmmm" "mmm#" #mmm"
 ```
+</pre>
