@@ -28,6 +28,7 @@
     {% else %}
       var disqus_use_url = disqus_use_protocol + disqus_use_www + '{{ site.disqus.url.new }}/' + disqus_use_path;
     {% endif %}
+    alert(disqus_use_url);
 
     var disqus_shortname  = '{{ site.disqus.handle }}';
     var disqus_identifier = disqus_use_url;
