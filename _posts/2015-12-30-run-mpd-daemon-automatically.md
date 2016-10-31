@@ -14,9 +14,6 @@ teaser: >
   annoying.  Here, I have come up with this simple snippet to run mpd
   daemon only if it is not yet running.
 disqus:
-  old: true
-  secure: true 
-  www: true
   path: article/run-mpd-daemon-automatically
 ---
 
