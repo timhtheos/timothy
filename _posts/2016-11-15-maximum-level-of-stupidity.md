@@ -12,7 +12,7 @@ permalink: article/maximum-level-of-stupidity
 I had a drink of wine with this fine not-so-young lady in one of the bars
 here in Cebu. We started with some exchange of information, et. al.
 
-TLTR;
+TLTR.
 
 We ended up arguing about the truth.
 
