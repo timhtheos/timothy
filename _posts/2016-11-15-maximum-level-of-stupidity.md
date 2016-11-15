@@ -24,7 +24,5 @@ truth? And, that 'all truths are relative', is absolutely true?"
 
 And, she said "Yes".
 
-My arguments are over. I simply don't wanna be around with an idiot like
-her. I can't handle such stupidity.
-
-So, next time, I'll say that on her face. She is a simpleton.
+My arguments are over. I simply don't wanna be around with an idiot
+simpleton like her. I can't handle such stupidity.
