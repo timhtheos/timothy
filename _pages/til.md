@@ -10,14 +10,18 @@ alias: what-i-learned-today
 ---
 
 `Tue, Nov. 15, '16'` |
-**Mosh**
+**Mosh.**
 
 Learned and heard `mosh` first from my beloved friend, yesterday, and I
 just installed it today.
 
-**Ssh aliases by its config**
+**Ssh aliases by its config.**
 
 Also learned this just today, by example.
+
+**The moon by 14% bigger.**
+
+The moon is bigger by 14% today. The next one will be decades from now.
 
 ---
 
