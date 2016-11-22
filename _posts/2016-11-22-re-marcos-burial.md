@@ -1,0 +1,64 @@
+---
+layout: post
+title:  "Saturnino C. Ocampo, et al. Vs. Rear Admiral Ernesto C. Enriquez, et al./Rep. Edcel C. Lagman, et al. Vs. Executive Secretary Salvador C. Medialdea, et al./Loretta Ann Pargas-Rosales, et al. Vs. Executive Secretary Salvador C. Medialdea, et al./Heherson T. Alvarez, et al. Vs. Executive Secretary Salvador C. Medialdea, et al./Zaira Patricia B. Baniaga, et la. Vs. Executive Secretary Salvador C. Medialdea, et al./Algamar A. Latiph Vs. Secretary Delfin N. Lorenzana, et al./Leila M. De Lima Vs. Executive Secretary Salvador C. Medialdea, et al."
+date:   2016-11-22
+permalink: jurisprudence/re-marcos-burial
+teaser: >
+  G.R. No. 225973/G.R. No. 225984/G.R. No. 226097/G.R. No. 226116/G.R.
+  No. 226117/G.R. No. 226120/G.R. No. 226294. November 8, 2016
+---
+
+G.R. No. 225973/G.R. No. 225984/G.R. No. 226097/G.R. No. 226116/G.R. No. 226117/G.R. No. 226120/G.R. No. 226294. November 8, 2016
+
+## Main Ponencia
+
+[Associate Justice Peralta](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973.pdf)
+
+## Concurring Opinion
+
+[Associate Justice Bersamin](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973_bersamin.pdf)
+
+## Separate Concurring Opinion
+
+[Associate Justice Brion](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973_brion.pdf)
+
+## Separate Opinions
+
+[Associate Justice Perez](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973_perez.pdf)
+[Associate Justice Mendoza](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973_mendoza.pdf)
+
+## Dissenting Opinions
+
+[Chief Justice Sereno](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973_sereno.pdf)
+[Associate Justice Carpio](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973_carpio.pdf)
+[Associate Justice Leonen](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973_leonen.pdf)
+[Associate Justice Caguioa](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973_caguioa.pdf)
+
+## Notes
+
+Associate Justice Reyes inhibited.
+
+The oral arguments' audio recordings can be found
+[here](http://sc.judiciary.gov.ph/microsite/marcos/audio-recording.html).
+
+## My personal stand
+
+A. Justice Perez puts it this way, and to quote:
+
+> Edralin Marcos _(President Marcos)_ was not, and will never be, a hero.
+> His interment in the Libingan Ng Mga Bayani _(LNMB)_ will not erase the
+> atrocities committed during his authoritarian rule. His place in
+> history will ultimately be judged by the people.
+
+But, that is beside the point, as evident on the fact that A. J. Perez
+concurs to the main decision. A. J. Peralta, the main ponente of said:
+
+> ... Court finds guidance from the Constitution and the applicable laws,
+> and in the absence of clear prohibition against the exercise of
+> discretion entrusted to the political branches of the Government, the
+> Court must not overextend its readings of what may only be seen as
+> providing tenuous connection to the issue before it.
+
+If you have question(s) and/or clarification(s), please let me know.
+
+Soli Deo Gloria!
