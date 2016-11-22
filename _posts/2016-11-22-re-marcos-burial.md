@@ -12,27 +12,27 @@ G.R. No. 225973/G.R. No. 225984/G.R. No. 226097/G.R. No. 226116/G.R. No. 226117/
 
 ## Main Ponencia
 
-[Associate Justice Peralta](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973.pdf)
+- [Associate Justice Peralta](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973.pdf)
 
 ## Concurring Opinion
 
-[Associate Justice Bersamin](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973_bersamin.pdf)
+- [Associate Justice Bersamin](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973_bersamin.pdf)
 
 ## Separate Concurring Opinion
 
-[Associate Justice Brion](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973_brion.pdf)
+- [Associate Justice Brion](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973_brion.pdf)
 
 ## Separate Opinions
 
-[Associate Justice Perez](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973_perez.pdf)
-[Associate Justice Mendoza](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973_mendoza.pdf)
+- [Associate Justice Perez](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973_perez.pdf)
+- [Associate Justice Mendoza](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973_mendoza.pdf)
 
 ## Dissenting Opinions
 
-[Chief Justice Sereno](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973_sereno.pdf)
-[Associate Justice Carpio](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973_carpio.pdf)
-[Associate Justice Leonen](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973_leonen.pdf)
-[Associate Justice Caguioa](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973_caguioa.pdf)
+- [Chief Justice Sereno](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973_sereno.pdf)
+- [Associate Justice Carpio](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973_carpio.pdf)
+- [Associate Justice Leonen](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973_leonen.pdf)
+- [Associate Justice Caguioa](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973_caguioa.pdf)
 
 ## Notes
 
