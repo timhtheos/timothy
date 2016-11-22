@@ -1,12 +1,20 @@
 ---
 layout: post
-title:  "Saturnino C. Ocampo, et al. Vs. Rear Admiral Ernesto C. Enriquez, et al./Rep. Edcel C. Lagman, et al. Vs. Executive Secretary Salvador C. Medialdea, et al./Loretta Ann Pargas-Rosales, et al. Vs. Executive Secretary Salvador C. Medialdea, et al./Heherson T. Alvarez, et al. Vs. Executive Secretary Salvador C. Medialdea, et al./Zaira Patricia B. Baniaga, et la. Vs. Executive Secretary Salvador C. Medialdea, et al./Algamar A. Latiph Vs. Secretary Delfin N. Lorenzana, et al./Leila M. De Lima Vs. Executive Secretary Salvador C. Medialdea, et al."
+title:  "Of Marcos burial, as a hero"
 date:   2016-11-22
 permalink: jurisprudence/re-marcos-burial
 teaser: >
-  G.R. No. 225973/G.R. No. 225984/G.R. No. 226097/G.R. No. 226116/G.R.
-  No. 226117/G.R. No. 226120/G.R. No. 226294. November 8, 2016
+  Saturnino C. Ocampo, et al. Vs. Rear Admiral Ernesto C. Enriquez, et
+  al./Rep. Edcel C. Lagman, et al. Vs. Executive Secretary Salvador C.
+  Medialdea, et al./Loretta Ann Pargas-Rosales, et al. Vs. Executive
+  Secretary Salvador C. Medialdea, et al./Heherson T. Alvarez, et al. Vs.
+  Executive Secretary Salvador C. Medialdea, et al./Zaira Patricia B.
+  Baniaga, et la. Vs. Executive Secretary Salvador C. Medialdea, et
+  al./Algamar A. Latiph Vs. Secretary Delfin N. Lorenzana, et al./Leila
+  M. De Lima Vs. Executive Secretary Salvador C. Medialdea, et al.
 ---
+
+Saturnino C. Ocampo, et al. Vs. Rear Admiral Ernesto C. Enriquez, et al./Rep. Edcel C. Lagman, et al. Vs. Executive Secretary Salvador C. Medialdea, et al./Loretta Ann Pargas-Rosales, et al. Vs. Executive Secretary Salvador C. Medialdea, et al./Heherson T. Alvarez, et al. Vs. Executive Secretary Salvador C. Medialdea, et al./Zaira Patricia B. Baniaga, et la. Vs. Executive Secretary Salvador C. Medialdea, et al./Algamar A. Latiph Vs. Secretary Delfin N. Lorenzana, et al./Leila M. De Lima Vs. Executive Secretary Salvador C. Medialdea, et al.
 
 G.R. No. 225973/G.R. No. 225984/G.R. No. 226097/G.R. No. 226116/G.R. No. 226117/G.R. No. 226120/G.R. No. 226294. November 8, 2016
 
