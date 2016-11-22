@@ -79,8 +79,8 @@ A. J. Peralta said:
 > providing tenuous connection to the issue before it.
 
 To sum it up:
-# I believe that Marcos is not a her.
-# Marcos is allowed by law to be entered into the Libingan ng mga Bayani
+1.  I believe that Marcos is not a her.
+2.  Marcos is allowed by law to be entered into the Libingan ng mga Bayani
   in the clear prohibition by the law and the constitution.
 
 If you have question(s) and/or clarification(s), please let me know.
