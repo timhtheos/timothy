@@ -14,40 +14,64 @@ teaser: >
   M. De Lima Vs. Executive Secretary Salvador C. Medialdea, et al.
 ---
 
+### Case Title
+
 Saturnino C. Ocampo, et al. Vs. Rear Admiral Ernesto C. Enriquez, et al./Rep. Edcel C. Lagman, et al. Vs. Executive Secretary Salvador C. Medialdea, et al./Loretta Ann Pargas-Rosales, et al. Vs. Executive Secretary Salvador C. Medialdea, et al./Heherson T. Alvarez, et al. Vs. Executive Secretary Salvador C. Medialdea, et al./Zaira Patricia B. Baniaga, et la. Vs. Executive Secretary Salvador C. Medialdea, et al./Algamar A. Latiph Vs. Secretary Delfin N. Lorenzana, et al./Leila M. De Lima Vs. Executive Secretary Salvador C. Medialdea, et al.
 
-G.R. No. 225973/G.R. No. 225984/G.R. No. 226097/G.R. No. 226116/G.R. No. 226117/G.R. No. 226120/G.R. No. 226294. November 8, 2016
+### Global Registry Numbers
 
-## Main Ponencia
+1.  G.R. No. 225973
+2.  G.R. No. 225984
+3.  G.R. No. 226097
+4.  G.R. No. 226116
+5.  G.R. No. 226117
+6.  G.R. No. 226120
+7.  G.R. No. 226294
+
+### Date of Decision
+
+November 8, 2016
+
+### Main Decision Ponente
 
 - [Associate Justice Peralta](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973.pdf)
 
-## Concurring Opinion
+---
+
+## Other Opinions
+
+### Concurring Opinion
 
 - [Associate Justice Bersamin](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973_bersamin.pdf)
 
-## Separate Concurring Opinion
+### Separate Concurring Opinion
 
 - [Associate Justice Brion](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973_brion.pdf)
 
-## Separate Opinions
+### Separate Opinions
 
 - [Associate Justice Perez](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973_perez.pdf)
 - [Associate Justice Mendoza](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973_mendoza.pdf)
 
-## Dissenting Opinions
+### Dissenting Opinions
 
 - [Chief Justice Sereno](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973_sereno.pdf)
 - [Associate Justice Carpio](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973_carpio.pdf)
 - [Associate Justice Leonen](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973_leonen.pdf)
 - [Associate Justice Caguioa](http://sc.judiciary.gov.ph/jurisprudence/2016/november2016/225973_caguioa.pdf)
 
-## Notes
+### Inhibited 
 
-Associate Justice Reyes inhibited.
+- Associate Justice Reyes
+
+---
+
+## Recordings
 
 The oral arguments' audio recordings can be found
 [here](http://sc.judiciary.gov.ph/microsite/marcos/audio-recording.html).
+
+---
 
 ## My personal stand
 
