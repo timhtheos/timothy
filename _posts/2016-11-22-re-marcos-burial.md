@@ -43,21 +43,45 @@ The oral arguments' audio recordings can be found
 
 ## My personal stand
 
-A. Justice Perez puts it this way, and to quote:
+I have read from facebook posts and comments about the issue from
+personal friends. Some of them are lawyers, and most are my close
+friends.
+
+My personal take has always been what A. J. Brion said in his separate
+concurring opinion, and to quote:
+
+> The judicial power that the Court wields is symbolized by a
+> blindfolded lady carrying a  set of scales for a  reason: it  bases its
+> decision, not on who the litigants are, nor on the clout - political,
+> emotional, or financial - they may carry; judicial adjudication is
+> based on law and evidence alone.  Under this standard, I  cannot grant
+> the petitions without knowingly crossing the line separating judicial
+> power from judicial overreach. 
+
+My personal stand on the issue of Marcos as a hero is best summarized by
+A. J. Perez, and to quote:
 
 > Edralin Marcos _(President Marcos)_ was not, and will never be, a hero.
 > His interment in the Libingan Ng Mga Bayani _(LNMB)_ will not erase the
 > atrocities committed during his authoritarian rule. His place in
 > history will ultimately be judged by the people.
 
-But, that is beside the point, as evident on the fact that A. J. Perez
-concurs to the main decision. A. J. Peralta, the main ponente said:
+A. J. Perez concurred to the main opinion of the court and he further
+stressed the fact that the issue on Marcos as a hero is beside the point
+before the court.
+
+A. J. Peralta said:
 
 > ... Court finds guidance from the Constitution and the applicable laws,
 > and in the absence of clear prohibition against the exercise of
 > discretion entrusted to the political branches of the Government, the
 > Court must not overextend its readings of what may only be seen as
 > providing tenuous connection to the issue before it.
+
+To sum it up:
+# I believe that Marcos is not a her.
+# Marcos is allowed by law to be entered into the Libingan ng mga Bayani
+  in the clear prohibition by the law and the constitution.
 
 If you have question(s) and/or clarification(s), please let me know.
 
