@@ -51,7 +51,7 @@ A. Justice Perez puts it this way, and to quote:
 > history will ultimately be judged by the people.
 
 But, that is beside the point, as evident on the fact that A. J. Perez
-concurs to the main decision. A. J. Peralta, the main ponente of said:
+concurs to the main decision. A. J. Peralta, the main ponente said:
 
 > ... Court finds guidance from the Constitution and the applicable laws,
 > and in the absence of clear prohibition against the exercise of
