@@ -4,19 +4,24 @@ title:  "Of Marcos burial, as a hero"
 date:   2016-11-22
 permalink: jurisprudence/re-marcos-burial
 teaser: >
-  Saturnino C. Ocampo, et al. Vs. Rear Admiral Ernesto C. Enriquez, et
-  al./Rep. Edcel C. Lagman, et al. Vs. Executive Secretary Salvador C.
-  Medialdea, et al./Loretta Ann Pargas-Rosales, et al. Vs. Executive
-  Secretary Salvador C. Medialdea, et al./Heherson T. Alvarez, et al. Vs.
-  Executive Secretary Salvador C. Medialdea, et al./Zaira Patricia B.
-  Baniaga, et la. Vs. Executive Secretary Salvador C. Medialdea, et
-  al./Algamar A. Latiph Vs. Secretary Delfin N. Lorenzana, et al./Leila
-  M. De Lima Vs. Executive Secretary Salvador C. Medialdea, et al.
+  The judicial power that the Court wields is symbolized by a
+  blindfolded lady carrying a  set of scales for a  reason: it  bases its
+  decision, not on who the litigants are, nor on the clout - political,
+  emotional, or financial - they may carry; judicial adjudication is
+  based on law and evidence alone.  Under this standard, I  cannot grant
+  the petitions without knowingly crossing the line separating judicial
+  power from judicial overreach. - Associate Justice Brion, PH SC
 ---
 
-### Case Title
+### Case Title(s)
 
-Saturnino C. Ocampo, et al. Vs. Rear Admiral Ernesto C. Enriquez, et al./Rep. Edcel C. Lagman, et al. Vs. Executive Secretary Salvador C. Medialdea, et al./Loretta Ann Pargas-Rosales, et al. Vs. Executive Secretary Salvador C. Medialdea, et al./Heherson T. Alvarez, et al. Vs. Executive Secretary Salvador C. Medialdea, et al./Zaira Patricia B. Baniaga, et la. Vs. Executive Secretary Salvador C. Medialdea, et al./Algamar A. Latiph Vs. Secretary Delfin N. Lorenzana, et al./Leila M. De Lima Vs. Executive Secretary Salvador C. Medialdea, et al.
+- Saturnino C. Ocampo, et al. Vs. Rear Admiral Ernesto C. Enriquez, et al.
+- Rep. Edcel C. Lagman, et al. Vs. Executive Secretary Salvador C. Medialdea, et al.
+- Loretta Ann Pargas-Rosales, et al. Vs. Executive Secretary Salvador C. Medialdea, et al.
+- Heherson T. Alvarez, et al. Vs. Executive Secretary Salvador C. Medialdea, et al.
+- Zaira Patricia B. Baniaga, et la. Vs. Executive Secretary Salvador C. Medialdea, et al.
+- Algamar A. Latiph Vs. Secretary Delfin N. Lorenzana, et al.
+- Leila M. De Lima Vs. Executive Secretary Salvador C. Medialdea, et al.
 
 ### Global Registry Numbers
 
@@ -28,7 +33,7 @@ Saturnino C. Ocampo, et al. Vs. Rear Admiral Ernesto C. Enriquez, et al./Rep. Ed
 6.  G.R. No. 226120
 7.  G.R. No. 226294
 
-### Date of Decision
+### Promulgated
 
 November 8, 2016
 
