@@ -117,7 +117,7 @@ A. J. Peralta said:
 
 To sum it up:
 
-1.  I believe that Marcos is not a her.
+1.  I believe that Marcos is not a hero.
 2.  Marcos is allowed by law to be entered into the Libingan ng mga Bayani
     in the clear prohibition by the law and the constitution.
 
