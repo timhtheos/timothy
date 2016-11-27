@@ -16,6 +16,8 @@ permalink: pretty
 collections:
   pages:
     output: true
+  trance:
+    outputL true
 
 disqus:
   handle: timhtheos
