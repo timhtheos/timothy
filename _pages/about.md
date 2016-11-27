@@ -61,6 +61,11 @@ Cebu City.
 2. [Github](https://github.com/timhtheos)
 3. [Drupal](https://www.drupal.org/u/timhtheos)
 
+## Other internal links
+
+1.  [Confessions](/confessions/)
+2.  [Tools I use](/tools-i-use/)
+
 [//]: # (I am a complicated person. I used to know myself, but now I feel being)
 [//]: # (alienated. The things I loved before, now I hate. The things I hated)
 [//]: # (before, now I love.)
