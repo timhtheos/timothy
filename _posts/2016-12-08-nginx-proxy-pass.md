@@ -39,3 +39,6 @@ the same can be accessed via http://torrents.example.com with no port
 number and no extra directory path.
 
 That's it.
+
+Btw, I have been using nginx proxy pass since last year, but I just did
+not document it.
