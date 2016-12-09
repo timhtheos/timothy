@@ -17,6 +17,7 @@ I won't be giving a case scenario by which this would be useful.
 Here's the code:
 
 ```
+
 server {
   listen 80;
   server_name torrents.example.com;
@@ -25,6 +26,7 @@ server {
     proxy_pass http://www.demo.com:8080/rutorrent;
   }
 }
+
 ```
 
 In the code above, you have a server where you have rutorrent in a
