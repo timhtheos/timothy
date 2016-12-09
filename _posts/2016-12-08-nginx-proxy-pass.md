@@ -14,18 +14,20 @@ different protocols.
 
 I won't be giving a case scenario by which this would be useful.
 
-Here's the code:
+## The code
 
-    ```
-    server {
-      listen 80;
-      server_name torrents.example.com;
-    
-      location / {
-        proxy_pass http://www.demo.com:8080/rutorrent;
-      }
-    }
-    ```
+```
+server {
+  listen 80;
+  server_name torrents.example.com;
+
+  location / {
+    proxy_pass http://www.demo.com:8080/rutorrent;
+  }
+}
+```
+
+## About the code
 
 In the code above, you have a server where you have rutorrent in a
 directory in port 8080.  The domain name is www.demo.com and the protocol
