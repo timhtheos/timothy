@@ -7,3 +7,24 @@
   // background-image: none;
   // @include iconize("angle-right");
 }
+
+#alerts {
+  display: none;
+}
+
+#userinfo_stats {
+  #stats_seeding {
+    .tooltip {
+      font-size: 0;
+    }
+
+    .tooltip:after {
+      font-size: 10.6px;
+      content: "Testing";
+    }
+  }
+
+  #stats_leeching {
+  
+  }
+}
