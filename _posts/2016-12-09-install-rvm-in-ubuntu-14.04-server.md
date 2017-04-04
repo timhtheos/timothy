@@ -3,6 +3,7 @@ layout: post
 title:  "Install RVM (Ruby Version manager) in Ubuntu 14.04"
 date:   2016-12-09
 categories:
+  - technology
   - rvm
   - ubuntu
   - ruby version manager

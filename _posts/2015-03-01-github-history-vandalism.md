@@ -3,7 +3,7 @@ layout: post
 title: Github History Vandalism
 date: 2015-03-01
 permalink: article/github-history-vandalism
-categories: git github bash
+categories: technology git github bash
 ---
 
 A former colleague introduced me to [gelstudios](https://github.com/gelstudios)' [gitfiti](https://github.com/gelstudios/gitfiti).  It's a tool to decorate your github account's commit history calendar by (blatantly) abusing git's ability to accept commits *in the past*.
