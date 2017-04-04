@@ -2,7 +2,6 @@
 layout: page
 title: Whoami 
 permalink: whoami/
-alias: about
 ---
 
 Hola!
