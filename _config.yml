@@ -17,7 +17,7 @@ collections:
   pages:
     output: true
   trance:
-    outputL true
+    output: true
 
 disqus:
   handle: timhtheos
