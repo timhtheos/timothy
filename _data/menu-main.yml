@@ -1,8 +1,8 @@
 - name: "Tech"
   link: "/"
 
-- name: "About"
-  link: "/about/"
+- name: "Whoami"
+  link: "/whoami/"
 
 - name: "TIL"
   link: "/til/"

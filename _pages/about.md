@@ -1,7 +1,8 @@
 ---
 layout: page
 title: About
-permalink: about/
+permalink: whoami/
+alias: about
 ---
 
 Hola!
