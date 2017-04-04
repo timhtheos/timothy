@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% for post in site.categories.technology %}
+{% for post in site.posts %}
   <div class="post">
     <h2 class="post-title">
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
