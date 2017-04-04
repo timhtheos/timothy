@@ -1,3 +1,6 @@
+- name: "Tech"
+  link: "/"
+
 - name: "About"
   link: "/about/"
 
