@@ -4,9 +4,6 @@
 - name: "About"
   link: "/about/"
 
-- name: "Resolutions"
-  link: "/resolutions/"
-
 - name: "TIL"
   link: "/til/"
 

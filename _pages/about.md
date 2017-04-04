@@ -63,8 +63,9 @@ Cebu City.
 
 ## Other internal links
 
-1.  [Confessions](/confessions/)
-2.  [Tools I use](/tools-i-use/)
+1.  [Tools I use](/tools-i-use/)
+2.  [Confessions](/confessions/)
+3.  [Resolutions](/resolutions/)
 
 [//]: # (I am a complicated person. I used to know myself, but now I feel being)
 [//]: # (alienated. The things I loved before, now I hate. The things I hated)
