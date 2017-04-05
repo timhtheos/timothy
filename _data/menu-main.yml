@@ -1,9 +1,6 @@
 - name: "Tech"
   link: "/"
 
-- name: "Theology"
-  link: "/theology/"
-
 - name: "Misc"
   link: "/misc/"
 
