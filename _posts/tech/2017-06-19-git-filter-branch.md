@@ -10,9 +10,21 @@ disqus:
 
 ## Scenario
 
+### Let's assume the following:
+
+1. Original repository: `A`.
+2. Other repository: `B`.
+3. Directory in `A` that we need to copy with commit history: `www/modules/custom/sms_gateway`
+4. Directory in `B` that we need to copy into the files and commits from `A`:  git root directory
+
 Suppose, you want to move a directory from a repository `A` to be merged
 into another repository `B`.  The noob approach would be just to copy
-the contents of the said directory from `A` to (that of) `B`
+the contents of the said directory from `A` to (that of) `B`.
+
+That however, will render all efforts of commits made in the direcotry in
+`A` to just one commit in `B`.  This is something we want to avoid
+especially to open source projects where commit history is important to
+the developers who made them, and to the company they work in as credits.
 
 Suppose, you want to retain git commit history made in repository `A` in
 that particular directory.  This can be done by one-by-one re-committing
@@ -29,17 +41,12 @@ tedious.
 
 ## Simple solution
 
-### Let's assume the following:
+Let's use git's `filter-branch` command.
 
-1. Original repository: `A`
-2. Other repository: `B`
-3. Directory in `A` that we need to copy with commit history: `www/modules/custom/sms_gateway`
-4. Directory in `B` that we need to copy into the files and commits from `A`:  git root directory
-
-### Actual steps:
+## Steps
 
 1. Clone `A`. Let's clone it in `/var/www/demo/`.  Any path will do.  I
-  would suggest to clone a new one, than to use existing cloned where you
+  would suggest to clone a new one, than to use existing one where you
   currently work on.
 
   ```
