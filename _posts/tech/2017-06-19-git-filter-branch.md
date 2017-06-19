@@ -50,13 +50,10 @@ Let's use git's `filter-branch` command.
 1. Clone `A`. Let's clone it in `/var/www/demo/`.  Any path will do.  I
   would suggest to clone a new one, than to use existing one where you
   currently work on.
-  ~~~
-  git clone A-git-url
-  ~~~
 
-  ~~~
-  git clone A-git-url
-  ~~~
+    ~~~
+    git clone A-git-url
+    ~~~
 
 2. Go to `A`.
 
