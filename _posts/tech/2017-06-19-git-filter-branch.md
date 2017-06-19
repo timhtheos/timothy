@@ -100,12 +100,12 @@ Let's use git's `filter-branch` command.
     newly cloned `A` earlier. The easiest way to do this is to go to /path/to/A
     and then `pwd` in its root.
 
-    ```
+    ~~~
     cd /path/to/A
     pwd (then copy the result)
     cd /path/to/B
     git remote add from-A /path/to/A
-    ```
+    ~~~
 
     Again, in the last command, the `from-A` is the alias of the remote you
     just added.  `/path/to/A` is the local path of you newly cloned `A` you did
