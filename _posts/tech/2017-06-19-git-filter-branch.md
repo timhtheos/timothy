@@ -143,6 +143,13 @@ Let's use git's `filter-branch` command.
     git log
     ~~~
 
+12. After all of the above, we now need to push to `B`. This is just a simple
+    push.
+
+    ~~~
+    git push origin 8.x-1.x
+    ~~~
+
 That's it.
 
 ## All commands
@@ -171,6 +178,7 @@ git merge from-A/feature-commits-from-A --allow-unrelated-histories
 git checkout 8.x-1.x
 git merge feature-commits-from-A
 git log
+git push origin 8.x-1.x
 ~~~
 
 For clarification(s), and/or question(s), please let me know.
