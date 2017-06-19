@@ -6,6 +6,10 @@ permalink: article/git-filter-branch-to-move-directory-and-its-commits-across-re
 categories: technology git filter-branch
 disqus:
   path: git-filter-branch
+teaser: >
+  Suppose, you want to move a directory from a repository A to be merged into
+  another repository B. The noob approach would be just to copy the contents of
+  the said directory from A to (that of) B.
 ---
 
 ## Scenario
