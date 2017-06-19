@@ -1,7 +1,7 @@
 - name: "Home/Tech"
   link: "/"
 
-- name: "Misc"
+- name: "Other Posts"
   link: "/misc/"
 
 - name: "Whoami"
@@ -9,6 +9,3 @@
 
 - name: "TIL"
   link: "/til/"
-
-- name: "Trance"
-  link: "/trance/"
