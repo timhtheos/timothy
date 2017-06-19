@@ -8,15 +8,17 @@ categories:
   - dot life
 permalink: article/new-domain-name-new-life
 teaser: >
-  Today being Sunday
+  Today, being Sunday, will make the effectivity of my resignation, as part of
+  the last week.
+  
+  Yep, I resigned a month ago, last May 14, 2017, Sunday. It was an irrevocable
+  resignation.
 ---
 
 Today, being Sunday, will make the effectivity of my resignation, as part of the
 last week.
 
-Yep, I resigned a month ago, last May 14, 2017, Sunday.
-
-It was an irrevocable resignation.
+Yep, I resigned a month ago, last May 14, 2017, Sunday. It was an irrevocable resignation.
 
 In my resignation, I laid down 3 main reasons as to why, and the 3rd one is the
 main one - health reasons.  I wanted to take a rest for a couple of weeks to a 
