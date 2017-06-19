@@ -18,6 +18,7 @@ disqus:
    `www/modules/custom/sms_gateway`
 4. Directory in `B` that we need to copy into the files and commits from `A`:
    git root directory
+5. Local path: `/var/www/demo/`.
 
 ### Let's start supposing:
 
@@ -102,10 +103,13 @@ Let's use git's `filter-branch` command.
 
     ~~~
     cd /path/to/A
-    pwd (then copy the result)
+    pwd
     cd /path/to/B
     git remote add from-A /path/to/A
     ~~~
+
+    In command `pwd` above, just note or copy the its result as you need this in
+    the last command to be substituted for `/path/to/A`.
 
     Again, in the last command, the `from-A` is the alias of the remote you
     just added.  `/path/to/A` is the local path of you newly cloned `A` you did
@@ -113,17 +117,17 @@ Let's use git's `filter-branch` command.
 
 9.  Now, let's do the merging.
 
-    ```
+    ~~~
     git fetch from-A
     git merge from-A/feature-commits-from-A
-    ```
+    ~~~
 
     If you encounter some error related to unrelated histories, you should
     add `--allow-unrelated-histories` in the second command.
 
-    ```
+    ~~~
     git merge from-A/feature-commits-from-A --allow-unrelated-histories
-    ```
+    ~~~
 
 10. Confirm commit histories.  In `B` in branch `feature-commits-from-A`,
     just `git log` and see the commits.  You can check back in `A` for
@@ -133,6 +137,40 @@ Let's use git's `filter-branch` command.
     original branch, e.g, `develop`, or `8.x-1.x` - to the branch where
     `feature-commits-from-A` was branched out.
 
+    ~~~
+    git checkout 8.x-1.x
+    git merge feature-commits-from-A
+    git log
+    ~~~
+
 That's it.
+
+## All commands
+
+~~~
+# Go to the local path where we want to do stuff.
+cd /var/www/demo/
+
+# Clone repos.
+git clone A-git-url
+git clone B-git-url
+
+# In A.
+cd /path/to/A
+git checkout develop
+git remote remove origin
+git filter-branch --subdirectory-filter www/modules/custom/sms_gateway -- --all
+
+# In B.
+cd /path/to/B
+git checkout 8.x-1.x
+git checkout -b feature-commits-from-A
+git remote add from-A /path/to/A
+git fetch from-A
+git merge from-A/feature-commits-from-A --allow-unrelated-histories
+git checkout 8.x-1.x
+git merge feature-commits-from-A
+git log
+~~~
 
 For clarification(s), and/or question(s), please let me know.
