@@ -3,7 +3,7 @@ layout: post
 title: Weird dreams
 date: 2016-06-10
 permalink: post/weird-dreams
-categories: dreams sanctification
+categories: misc dreams sanctification
 ---
 
 I had two series of weird dreams for two consecutive days.

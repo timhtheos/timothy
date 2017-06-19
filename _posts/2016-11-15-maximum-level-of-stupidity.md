@@ -3,6 +3,7 @@ layout: post
 title:  "Maximum level of stupidity"
 date:   2016-11-15
 categories:
+  - misc
   - logic
   - truth
   - theology
