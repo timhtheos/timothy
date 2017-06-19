@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Git filter-branch
+title: How to use git filter-branch to move a directory from one repository to the other including its history of commits
 date: 2017-06-19
-permalink: article/git-filter-branch
+permalink: article/git-filter-branch-to-move-directory-and-its-commits-across-repositories
 categories: technology git filter-branch
 disqus:
   path: git-filter-branch
