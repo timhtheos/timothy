@@ -47,19 +47,18 @@ Let's use git's `filter-branch` command.
 
 ## Steps
 
-1. Clone `A`. Let's clone it in `/var/www/demo/`.  Any path will do.  I
-  would suggest to clone a new one, than to use existing one where you
-  currently work on.
+1. Clone `A`. Let's clone it in `/var/www/demo/`. Any path will do. I would suggest to clone a new one, than to use existing one where you currently work on.
 
     ~~~
     git clone A-git-url
     ~~~
 
 2. Go to `A`.
+    Test 2nd line
 
-  ```
-  cd /path/to/A
-  ```
+    ```
+    cd /path/to/A
+    ```
 
 3. Checkout to the branch you want.  E.g., `develop`.
 
