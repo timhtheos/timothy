@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  New domain name, new life
-date:   2017-06-18
+date:   3017-06-18
 categories:
   - misc
   - domain name
