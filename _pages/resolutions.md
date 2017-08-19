@@ -9,6 +9,18 @@ permalink: resolutions/
 ---
 
 ~~~
+Sun, Aug. 20, 2017
+~~~
+Resolved, not to do it again. I regret this day, this very hour, 3:00 AM, where I have sinned against Thee and the one I love. Di ko gid kaya. Indi nagid ko mag liwat. ;-(
+Resolved, not to again.
+
+I have promised before, NOT TO.
+
+Lord, give what Thou commandest, and command what Thou wilt.
+
+I earnestly, ask for forgiveness.
+
+~~~
 Thu, Jun. 23, '16
 ~~~
 Resolved, to stop nail biting. If ever I did, I should remind myself not to do it, and to stop immediately, and repent when I come to myself again.
