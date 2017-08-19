@@ -20,6 +20,8 @@ Lord, give what Thou commandest, and command what Thou wilt.
 
 I earnestly, ask for forgiveness.
 
+Law-ay law-ay gid sang feelings.
+
 ---
 
 ~~~
