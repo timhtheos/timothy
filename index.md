@@ -17,7 +17,6 @@ layout: default
   </div>
 {% endfor %}
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- footer -->
 <ins class="adsbygoogle"
      style="display:inline-block;width:728px;height:90px"
