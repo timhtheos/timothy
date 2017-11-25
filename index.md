@@ -14,12 +14,15 @@ layout: default
       <div class="post-teaser">{{ post.excerpt }}</div>
     {% endif %}
 
-    <ins class="adsbygoogle"
-      style="display:inline-block;width:728px;height:90px"
-      data-ad-client="ca-pub-2377540805505375"
-      data-ad-slot="4233921032"></ins>
-    <script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
   </div>
 {% endfor %}
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- footer -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-2377540805505375"
+     data-ad-slot="4233921032"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
