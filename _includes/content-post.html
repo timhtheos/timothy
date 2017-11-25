@@ -1,10 +1,6 @@
 <div class="wrapper">
   {% include menu-main.html %}
   <div class="container content">
-    <h1>
-      {{ page.title }}
-      <hr />
-    </h1>
     <ins class="adsbygoogle"
       style="display:inline-block;width:728px;height:90px"
       data-ad-client="ca-pub-2377540805505375"
@@ -12,6 +8,10 @@
     <script>
       (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
+    <h1>
+      {{ page.title }}
+      <hr />
+    </h1>
     {{ content }}
     <hr />
     {% include disqus.html %}
