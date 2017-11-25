@@ -13,6 +13,8 @@ alias: what-i-learned-today
 `Thu., Nov. 16, 2017` |
 **#yoloblomlmtaasosbtdpwkeoboiodawcheoboitod**
 
+Reference: https://www.youtube.com/watch?v=xn7ZaT3AgoU
+
 ---
 
 `Tue, Nov. 15, '16'` |
