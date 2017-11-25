@@ -10,6 +10,11 @@ alias: what-i-learned-today
 
 ---
 
+`Thu., Nov. 16, 2017` |
+**#yoloblomlmtaasosbtdpwkeoboiodawcheoboitod**
+
+---
+
 `Tue, Nov. 15, '16'` |
 **Mosh.**
 
