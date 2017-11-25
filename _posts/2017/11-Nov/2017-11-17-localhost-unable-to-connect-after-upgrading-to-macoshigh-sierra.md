@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post 
 title:  Localhost unable to connect after upgrading to macOS High Sierra
 date: 2017-11-17T03:43:32Z
 categories:
