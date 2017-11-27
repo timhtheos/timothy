@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% for post in site.categories.technology %}
+{% for post in paginator.site.categories.technology %}
   <div class="post">
     <h2 class="post-title">
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -16,6 +16,21 @@ layout: default
 
   </div>
 {% endfor %}
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div>
 
 <!-- footer -->
 <ins class="adsbygoogle"
