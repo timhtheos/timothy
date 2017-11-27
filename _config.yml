@@ -30,3 +30,6 @@ safe: false
 
 # Make all future posts unpublished.
 future: false
+
+paginate: 5
+paginate_path: "/page-:num/"
