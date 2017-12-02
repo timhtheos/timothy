@@ -6,8 +6,31 @@
   </head>
 
   <body class="content-type-page">
-    {% include types/page.html %}
+    <div class="main">
+      <div class="row region-top">
+        <div class="region-top-inner">
+          <h1 class="site-name"><a href="/">{{ site.title }}</a></h1>
+          <div class="region-navigation">
+            <a id="toggle-navigation" href="#navigation"></a>
+          </div>
+        </div>
+      </div>
+      <div class="row region-content">
+        <div class="region-content-inner">
+          <div class="region-content-main">
+            {% include types/page.html %}
+          </div>
+          <div class="region-content-sidebar">
+            {% include components/ads/large-rectangle.html %}
+
+            {% include components/disqus.html %}
+          </div>
+        </div>
+      </div>
+    </div>
+
     {% include regions/footer.html %}
+    {% include regions/navigation.html %}
   </body>
 
 </html>

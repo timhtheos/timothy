@@ -48,8 +48,9 @@ keeping Markdown.
     sound arrogant, but never stupid. Let's debate.
 
 ## Some thoughts of being me
-Don't be like me. I'm hopeless - forever alone, no friend, no family
-(broken family), and has vices.
+Don't be like me.
+[//]: # (I'm hopeless - forever alone, no friend, no family)
+[//]: # ((broken family), and has vices.)
 
 ## Other info and whereabouts
 I came from Bacolod City and grew up there, and now currently living in
