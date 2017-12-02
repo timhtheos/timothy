@@ -5,7 +5,7 @@ $(document).ready(function() {
   });
 
   $comment_div = $("#disqus-recent-comments");
-  $.get("https://disqus.com/api/3.0/forums/listPosts.json?forum=timhtheos&limit=10&related=thread&api_key=vSK5ndtqzaZGn4aEsYsR9xCrV1z656kxT0VODoLLbCOQvFQezy6wtBWNe9Jy3GW4", function(res, code) {
+  $.get("https://disqus.com/api/3.0/forums/listPosts.json?forum=timhtheos&limit=10&related=thread&api_key=mARVtOgZo3Gjz2whc6CPuR1eQZywsACQkvsKLRc2ljXL4A0hia640WHJGIktiJ5Z", function(res, code) {
     //Good response?
     if(res.code === 0) {
       var result = "";
