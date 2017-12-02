@@ -25,7 +25,21 @@
 h2,
 h2 a {
   color: $color--primary;
+  font-size: 24px;
   // font-size: 32px;
   // font-weight: 100;
   // letter-spacing: -1px;
+}
+
+hr {
+  border: 0;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  border-top-style: none;
+  border-bottom-style: none;
+  border-top-color: currentcolor;
+  border-bottom-color: currentcolor;
+  height: 0;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  border-bottom: 1px solid rgba(255,255,255,0.3);
 }

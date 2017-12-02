@@ -89,4 +89,76 @@ body {
 .region-content-sidebar {
   width: 40%;
   min-width: 300px;
+
+  h2 {
+    @include iconize("comments");
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: $color--black;
+  }
+
+  h2:before {
+    margin-right: 15px;
+  }
+
+  #disqus-recent-comments {
+    margin-top: 15px;
+  }
+
+  h3,
+  h3 a {
+    color: $color--primary;
+  }
+
+  h3 {
+    margin-bottom: 10px;
+  }
+
+  .disqus-comment {
+    margin-bottom: 15px;
+  }
+
+  .disqus-comment-wrapper {
+    @include display-flex();
+  }
+
+  .disqus-comment-message-wrapper {
+    margin-left: 15px;
+  }
+
+  .disqus-comment-author,
+  .disqus-comment-author a,
+  .disqus-comment-date {
+    color: #AAA;
+  }
+
+  .disqus-comment-author i,
+  .disqus-comment-date i {
+    margin-right: 5px;
+  }
+
+  .disqus-comment-author {
+    float: left;
+    margin-right: 15px;
+  }
+
+  .disqus-comment-author a:hover {
+    color: $color--primary;
+  }
+
+  .disqus-comment-message {
+    @include dont-break-out();
+    margin-top: 5px;
+  }
+}
+
+.region-content-main {
+  h1 {
+    margin-bottom: 15px;
+  }
+
+  h1 + hr {
+    margin-bottom: 25px;
+  }
 }
