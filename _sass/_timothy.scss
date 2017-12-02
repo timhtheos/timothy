@@ -57,6 +57,33 @@ body {
 .region-content-main {
   margin-right: 25px;
   width: 60%;
+
+  .post {
+    margin-bottom: 25px;
+  }
+
+  .post-content-wrapper {
+    @include display-flex();
+    @include flex("justify-content", "space-between");
+    @include flex("align-items", "baseline");
+  }
+
+  .post-title,
+  .post-meta {
+    margin-bottom: 5px;
+  }
+
+  .post-meta {
+     white-space: nowrap;
+     @include iconize("clock-o");
+
+     &:before {
+      margin-right: 15px;
+     }
+  }
+
+  .post-teaser p {
+  }
 }
 
 .region-content-sidebar {
