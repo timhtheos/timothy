@@ -52,11 +52,20 @@ body {
 .region-content-inner {
   @include display-flex();
   @include flex("justify-content", "space-between");
+  @include flex("flex-wrap", "wrap");
+
+  @media #{$desktop} {
+    @include flex("flex-wrap", "nowrap");
+  }
 }
 
 .region-content-main {
-  margin-right: 25px;
-  width: 60%;
+  width: 100%;
+
+  @media #{$desktop} {
+    margin-right: 50px;
+    width: 60%;
+  }
 
   .post {
     margin-bottom: 25px;
@@ -87,8 +96,12 @@ body {
 }
 
 .region-content-sidebar {
-  width: 40%;
-  min-width: 300px;
+  width: 100%;
+
+  @media #{$desktop} {
+    width: 40%;
+    min-width: 300px;
+  }
 
   h2 {
     @include iconize("comments");
