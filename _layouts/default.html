@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include header.html %}
-  <body>
-    {% include content-default.html %}
-    {% include footer.html %}
+
+  <head>
+    {% include regions/header.html %}
+  </head>
+
+  <body class="front content-type-default">
+    {% include types/default.html %}
+    {% include regions/footer.html %}
   </body>
+
 </html>

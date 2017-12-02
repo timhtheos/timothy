@@ -11,7 +11,16 @@
     (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
 
+    <h1>
+      {{ page.title }}
+      <hr />
+    </h1>
     {{ content }}
     <hr />
+
+    {% include components/ads/footer.html %}
+    {% include components/disqus.html %}
+    {% include components/ads/footer-2.html %}
+
   </div>
 </div>
