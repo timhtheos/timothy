@@ -1,0 +1,16 @@
+<ul class="menu menu-primary">
+  {% for x in site.data.menus/primary %}
+    {% if x.name == "Just when needed" %}
+      <li class="menu-link"><a href="{{ x.link }}">{{ x.name }}</a>
+    {% else %}
+      <li class="menu-link"><a href="{{ x.link }}">{{ x.name }}</a>
+    {% endif %}
+
+    {% comment %}
+    {% if forloop.last == false %}
+      |
+    {% endif %}
+    {% endcomment %}
+    </li>
+  {% endfor %}
+</ul>
