@@ -12,11 +12,14 @@
 
 .ad {
   width: 100%;
+  @include display-flex();
+  @include flex("justify-content", "center");
+  @include flex("align-items", "center");
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .ad-header {
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 h2,
