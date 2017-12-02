@@ -20,7 +20,7 @@
 <meta name="description" content="{{ desc }}">
 <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="/feed.xml" />
-<link rel="stylesheet" href="/css/timothy.css">
+<link rel="stylesheet" href="/css/style.css">
 
 {% if site.favicon %}
 <link rel="icon" type="image/ico" href="{{ site.favicon_location }}">
@@ -53,6 +53,17 @@
 {% else %}
 <meta name="twitter:image" content="{{ site.profile_picture }}">
 {% endif %}
+
+<!-- jQuery -->
+<script src="/js/jquery/2.2.0/jquery.min.js"></script>
+
+<!-- Sidr -->
+<meta name="viewport" content="width=device-width,minimum-scale=1">
+<script src="/js/jquery.sidr/2.2.1/jquery.sidr.min.js"></script>
+<link rel="stylesheet" href="/css/jquery.sidr/2.2.1/jquery.sidr.light.min.css">
+
+<!-- Custom js -->
+<script src="/js/script.js"></script>
 
 {% include components/angularjs.html %}
 {% include components/adsense.html %}

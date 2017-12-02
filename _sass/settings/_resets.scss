@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: $font--primary;
+  width: auto;
+  text-decoration: none;
+}
+
+.region-top a:hover {
+  color: red !important;
+}
+
+.ad {
+  width: 100%;
+}
+
+.ad-header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h2,
+h2 a {
+  color: $color--primary;
+}
