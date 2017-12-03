@@ -28,3 +28,21 @@ safe: false
 
 # Make all future posts unpublished.
 future: false
+
+gems:
+  - jekyll-archives
+
+jekyll-archives:
+  enabled: all
+  layouts:
+    year: archive-year
+    month: archive-month
+    day: archive-day
+    tag: category
+    category: category
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'

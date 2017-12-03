@@ -1,14 +1,7 @@
-- name: "Development"
-  link: "/"
-
-- name: "Other Posts"
-  link: "/misc/"
-
-- name: "Whoami"
-  link: "/whoami/"
-
 - name: "TIL"
   link: "/til/"
+  fa: "lightbulb-o"
 
 - name: "Privacy Policy"
   link: "/privacy/"
+  fa: "book"

@@ -3,7 +3,7 @@ layout: post
 title:  Localhost unable to connect after upgrading to macOS High Sierra
 date: 2017-11-17T03:43:32Z
 categories:
-  - technology
+  - development
 permalink: entry/2017-11-17/localhost-unable-to-connect-after-upgrading-to-macos-high-sierra
 ---
 
