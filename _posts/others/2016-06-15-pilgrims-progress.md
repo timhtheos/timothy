@@ -3,7 +3,12 @@ layout: post
 title: Pilgrims Progress
 date: 2016-06-15
 permalink: post/pilgrims-progress
-categories: misc books sanctification routine
+categories:
+  - Personal
+tags:
+  - books
+  - sanctification
+  - routine
 ---
 
 My Cebu life has been a routine after I decided it to be.

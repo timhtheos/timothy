@@ -7,8 +7,8 @@ teaser: >
   My personal thoughts of the Manny Pacquia trending comment "worst than
   animals" to homosexuals and same sex marriage.
 categories: 
-  - misc
-  - social sciences
+  - Social Science
+  - Opinion
 tags:
   - Manny Pacquiao
   - homosexuality

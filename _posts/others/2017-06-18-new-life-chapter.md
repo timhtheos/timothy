@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  New domain name, new life
-date:   3017-06-18
+title:  New life's chapter
+date:   2017-06-18
 categories:
-  - misc
-  - domain name
-  - dot life
-permalink: article/new-domain-name-new-life
+  - Personal
+tags:
+  - resignation
+permalink: article/new-life-chapter
 teaser: >
   Today, being Sunday, will make the effectivity of my resignation, as part of
   the last week.
@@ -42,14 +42,3 @@ I did not export the company's chat messages whether it be private or group.
 
 But in here, I want to share it:
 https://github.com/timhtheos/hipchat-exporter
-
-Back to the present... Earlier, I bought a new domain name, (dot) life as its TLD
-and timothy as its domain name.
-
-It's:  timothy.life
-
-Just for fun, I may set up a jekyll site on that domain name and I will use
-github and netlify to automate production pushes.  That's a `may` still.
-
-It's a new domain name in a dot life extension, after the fact of being
-resingned.  A new life awaits.

@@ -11,7 +11,13 @@ teaser: >
   based on law and evidence alone.  Under this standard, I  cannot grant
   the petitions without knowingly crossing the line separating judicial
   power from judicial overreach. - Associate Justice Brion, PH SC
-categories: misc
+categories:
+  - Social Science
+tags:
+  - marcos
+  - marcos burial
+  - jurisprudence
+  - law
 ---
 
 ### Case Title(s)

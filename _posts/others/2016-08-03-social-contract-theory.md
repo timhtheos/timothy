@@ -3,7 +3,12 @@ layout: post
 title: Social Contract Theory
 date: 2016-08-03
 permalink: post/social-contract-theory
-categories: misc society politics
+categories:
+  - Personal
+  - Social Science
+tags:
+  - society
+  - politics
 ---
 
 As much as I want to close my eyes on simple petty things, I just can't.  I am too sensitive to the smallest details.  I am governed by a lot of rules, latin legal maxims, among others.  Now, one of the things I keep my eyes closed, has to do with the social contract theory.  Let's dig dipper and define what it is.
