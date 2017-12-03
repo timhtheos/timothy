@@ -9,6 +9,9 @@
 .row.region-top {
   background-color: $color--black;
   height: 75px;
+
+  position: fixed;
+  top: 0;
 }
 
 .region-top-inner {
@@ -27,7 +30,9 @@
 }
 
 // Region content.
-.row.region-content {}
+.row.region-content {
+  margin-top: 75px;
+}
 
 .region-content-inner {
   width: $xlarge;

@@ -3,5 +3,23 @@
     width: auto;
     margin-right: 5px;
   }
-}
 
+  .sidebar-region-top {
+    @include display-flex();
+    @include flex("align-items", "center");
+
+    background-color: $color--black;
+    height: 75px;
+  }
+
+  .sidebar-menu {
+    background-color: transparent;
+    background-image: none;
+    box-shadow: none;
+    font-size: 26px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0;
+    text-align: center;
+  }
+}
