@@ -2,7 +2,12 @@
 layout: post
 title: Memcached
 date:   2010-02-01
-categories: technology memcached drupal ubuntu
+categories:
+  - development
+tags:
+  - drupal
+  - ubuntu
+  - memcached
 permalink: article/memcached
 teaser: >
   Memcache is free & open source, high-performance, distributed memory

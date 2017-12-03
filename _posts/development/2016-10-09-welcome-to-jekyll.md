@@ -2,7 +2,11 @@
 layout: post
 title:  "Welcome to Jekyll! Updated!"
 date:   2016-10-09
-categories: technology jekyll update
+categories:
+  - development
+tags:
+  - jekyll
+  - update
 permalink: welcome-to-jekyll
 teaser: >
   After years of using Drupal 7.x on my personal website, from

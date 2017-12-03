@@ -4,7 +4,8 @@ title: User Acceptance Criteria (UAC), ...Testing (UAT)
 date: 2016-02-02 02
 permalink: article/user-acceptance-criteria-uac-testing-uat
 categories:
-  - technology
+  - development
+tags:
   - agile
   - users acceptance criteria (uac)
   - users acceptance testing (uat)

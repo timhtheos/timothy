@@ -3,7 +3,11 @@ layout: post
 title: Run mpd daemon automatically
 date: 2015-12-30
 permalink: article/run-mpd-daemon-automatically
-categories: technology mpd ncmpcpp
+categories:
+  - development
+tags:
+  - mpd
+  - ncmpcpp
 teaser: >
   In article [Install mpd + ncmpcpp on OSX Yosemite](/article/install-mpd-ncmpcpp-on-osx-yosemite),
   many asked how to run mpd automatically.  This isn't an issue at first,

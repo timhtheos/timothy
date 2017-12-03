@@ -3,7 +3,8 @@ layout: post
 title:  "Create nginx proxy pass"
 date:   2016-12-08
 categories:
-  - technology
+  - development
+tags:
   - nginx
   - proxy_pass 
 permalink: article/create-nginx-proxy-pass

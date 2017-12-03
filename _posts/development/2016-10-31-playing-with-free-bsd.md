@@ -3,7 +3,8 @@ layout: post
 title:  Playing with FreeBSD
 date:   2016-10-31
 categories:
-  - technology
+  - development
+tags:
   - unix
   - bsd
   - free bsd

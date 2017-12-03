@@ -3,7 +3,14 @@ layout: post
 title: Install mpd + ncmpcpp on OSX Yosemite
 date: 2015-02-09
 permalink: article/install-mpd-ncmpcpp-on-osx-yosemite
-categories: technology mpd ncmpcpp unix osx yosemite
+categories:
+  - development
+tags:
+  - mpd
+  - ncmpcpp
+  - unix
+  - osx
+  - yosemite
 disqus:
   path: article/install-mpd-ncmpcpp-on-osx-yosemite-0
 alias: article/install-mpd-ncmpcpp-on-osx-yosemite-0

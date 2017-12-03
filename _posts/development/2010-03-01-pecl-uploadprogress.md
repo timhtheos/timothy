@@ -2,8 +2,13 @@
 layout: post
 title: PECL uploadprogress
 date:   2010-03-01
-categories: technology pecl drupal ubuntu
 permalink: article/pecl-uploadprogress
+categories:
+  - development
+tags:
+  - pecl
+  - drupal
+  - ubuntu
 ---
 
 I installed plupload libraries in Drupal 7.x.  Plupload is a highly usable upload handler for any CMS or similar.  Plupload functions well if uploadprogress module is installed and enabled in PHP, though it will still function without it.

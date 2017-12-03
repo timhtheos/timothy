@@ -3,7 +3,14 @@ layout: post
 title: Install ncmpcpp with visualizer on OSX [Yosemite]
 date: 2016-01-29
 permalink: article/install-ncmpcpp-with-visualizer-on-osx-yosemite
-categories: technology mpd ncmpcpp visualizer osx yosemite
+categories:
+  - development
+tags:
+  - mpd
+  - ncmpcpp
+  - visualizer
+  - osx
+  - yosemite
 teaser: >
   Ncmpcpp is an mpd client.  It is compatible with mopidy and its UI is
   very similar to ncmpc.  It's a TUI-based music player that is very
