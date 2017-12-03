@@ -114,6 +114,7 @@
   }
 
   h2:before {
+    margin-right: 15px;
   }
 
   #disqus-recent-comments {
@@ -131,6 +132,39 @@
 
   .disqus-comment {
     margin-bottom: 15px;
+    height: 107px;
+  }
+
+  .disqus-comment:hover {
+    background-color: #e5e7ea;
+    border-top: 1px solid $color--primary;
+    border-left: 1px solid $color--primary;
+    border-right: 1px solid $color--primary;
+    margin-top: -1px;
+    margin-left: -1px;
+    margin-right: -1px;
+
+    .disqus-comment-message {
+      overflow: visible !important;
+      height: auto !important;
+      background-color: #e5e7ea;
+      z-index: 10;
+      position: relative;
+      margin-left: -86px;
+      margin-right: -1px;
+      padding-left: 85px;
+      padding-bottom: 15px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      border-bottom: 1px solid $color--primary;
+      border-left: 1px solid $color--primary;
+      border-right: 1px solid $color--primary;
+    }
+
+    .disqus-comment-image {
+      position: relative;
+      z-index: 11;
+    }
   }
 
   .disqus-comment-wrapper {
