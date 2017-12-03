@@ -12,6 +12,8 @@
 
   position: fixed;
   top: 0;
+  z-index: 15px;
+  box-shadow: 0 2px 15px $color--black;
 }
 
 .region-top-inner {
