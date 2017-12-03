@@ -38,7 +38,7 @@
   @media #{$large-up} {
     @include display-flex();
     @include flex("justify-content", "space-between");
-    @include flex("align-items", "baseline");
+    @include flex("align-items", "flex-start");
   }
 }
 
