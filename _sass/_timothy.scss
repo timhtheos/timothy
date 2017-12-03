@@ -1,41 +1,68 @@
-.full-width {
-  width: 100%;
-}
-
-body {
-  @extend .full-width;
-  margin: 0;
-}
-
-.main,
-.main .row {
-  @extend .full-width;
-}
-
-.region-top {
+// Regions.
+.row.region-top,
+.row.region-content {
   @include display-flex();
   @include flex("align-items", "center");
-  background-color: $color--black;
-  height: 75px;
 }
 
-.region-top-inner,
-.region-content-inner {
-  width: auto;
-  margin: 0 auto;
-  padding: 0 25px;
+
+// Region top.
+.row.region-top {
+  background-color: $color--black;
+  height: 75px;
 }
 
 .region-top-inner {
   @include display-flex();
   @include flex("justify-content", "space-between");
-  width: 100%;
+  @include flex("align-items", "center");
+
+  width: $xlarge;
+  margin: 0 auto;
+  padding: 0 25px;
 }
+
+.site-name,
+.region-navigation {
+  width: auto;
+}
+
+// Region content.
+.row.region-content {}
+
+.region-content-inner {
+  width: $xlarge;
+  margin: 0 auto;
+  padding: 0 25px;
+
+  @media #{$large-up} {
+    @include display-flex();
+    @include flex("justify-content", "space-between");
+    @include flex("align-items", "baseline");
+  }
+}
+
+.region-content-main {
+  @media #{$large-up} {
+    width: 60%;
+  }
+}
+
+.region-content-sidebar {
+  @media #{$large-up} {
+    width: 35%;
+  }
+}
+
+.region-top-inner {}
 
 .site-name,
 .site-name a {
   color: #fff;
   font-weight: 100;
+}
+
+.site-name {
 }
 
 .region-navigation {
@@ -49,33 +76,12 @@ body {
   font-size: 30px;
 }
 
-.region-content-inner {
-  @include display-flex();
-  @include flex("justify-content", "space-between");
-  @include flex("flex-wrap", "wrap");
-
-  @media #{$desktop} {
-    @include flex("flex-wrap", "nowrap");
-  }
-}
-
 .region-content-main {
-  width: 100%;
-
-  @media #{$desktop} {
-    margin-right: 50px;
-    width: 60%;
-  }
-
   .post {
     margin-bottom: 25px;
   }
 
-  .post-content-wrapper {
-    @include display-flex();
-    @include flex("justify-content", "space-between");
-    @include flex("align-items", "baseline");
-  }
+  .post-content-wrapper {}
 
   .post-title,
   .post-meta {
@@ -83,11 +89,14 @@ body {
   }
 
   .post-meta {
-     white-space: nowrap;
      @include iconize("clock-o");
 
+     white-space: nowrap;
+     color: #AAA;
+
      &:before {
-      margin-right: 15px;
+       color: #AAA;
+       margin-right: 5px;
      }
   }
 
@@ -96,13 +105,6 @@ body {
 }
 
 .region-content-sidebar {
-  width: 100%;
-
-  @media #{$desktop} {
-    width: 40%;
-    min-width: 300px;
-  }
-
   h2 {
     @include iconize("comments");
     font-weight: 600;
@@ -112,7 +114,6 @@ body {
   }
 
   h2:before {
-    margin-right: 15px;
   }
 
   #disqus-recent-comments {
@@ -136,8 +137,55 @@ body {
     @include display-flex();
   }
 
+  .disqus-comment-image {
+    width: 70px;
+    height: 70px;
+    margin-right: 15px;
+
+    img {
+      width: 70px;
+      height: 70px;
+    }
+  }
+
   .disqus-comment-message-wrapper {
-    margin-left: 15px;
+    width: auto;
+  }
+
+  .disqus-comment-author-wrapper {
+    @include display-flex();
+    @include flex("justify-content", "flex-start");
+
+    overflow: hidden;
+  }
+
+  .disqus-comment-author,
+  .disqus-comment-date {
+    @include display-flex();
+    @include flex("justify-content", "flex-start");
+    @include dont-break-out();
+
+    width: auto;
+    padding-right: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+
+    > * {
+      width: auto;
+    }
+
+    i {
+      padding-right: 5px;
+    }
+  }
+
+  .disqus-comment-author {
+    max-width: 40%;
+  }
+
+  .disqus-comment-date {
+    padding-right: 0;
+    max-width: 40%;
   }
 
   .disqus-comment-author,
@@ -146,23 +194,16 @@ body {
     color: #AAA;
   }
 
-  .disqus-comment-author i,
-  .disqus-comment-date i {
-    margin-right: 5px;
-  }
-
-  .disqus-comment-author {
-    float: left;
-    margin-right: 15px;
-  }
-
   .disqus-comment-author a:hover {
     color: $color--primary;
   }
 
   .disqus-comment-message {
     @include dont-break-out();
+
     margin-top: 5px;
+    height: 54px;
+    overflow: hidden;
   }
 }
 
