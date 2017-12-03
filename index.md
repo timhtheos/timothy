@@ -13,6 +13,8 @@ layout: default
     {% else %}
       <div class="post-teaser">{{ post.excerpt }}</div>
     {% endif %}
-
   </div>
+    {% if forloop.index == 5 %}
+      {% include components/ads/in-feed-ad.html %}
+    {% endif %}
 {% endfor %}
