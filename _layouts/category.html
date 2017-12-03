@@ -1,4 +1,5 @@
-<h1>Archive of posts with {{ page.type }} '{{ page.title }}'</h1>
+<h1>{{ page.type | capitalize_all }} `{{ page.title | capitalize_all }}`</h1>
+<h2>The category layout template is currently under construction.</h2>
 <ul class="posts">
   {% for post in page.posts %}
     <li>
