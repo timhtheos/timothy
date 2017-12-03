@@ -66,6 +66,10 @@
   white-space: nowrap;
 }
 
+.header-links {
+  width: auto;
+}
+
 .region-navigation {
   @include display-flex();
   @include flex("align-items", "center");
