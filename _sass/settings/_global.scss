@@ -10,11 +10,11 @@
   color: red !important;
 }
 
-.ad {
-  width: 100%;
-  @include display-flex();
-  @include flex("justify-content", "center");
-  @include flex("align-items", "center");
+.adsbygoogle {
+  // width: 100%;
+  // @include display-flex();
+  // @include flex("justify-content", "center");
+  // @include flex("align-items", "center");
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: 10px;
