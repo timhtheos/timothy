@@ -8,6 +8,8 @@ teaser: >
   animals" to homosexuals and same sex marriage.
 categories: 
   - misc
+  - social sciences
+tags:
   - Manny Pacquiao
   - homosexuality
   - same sex marriage
