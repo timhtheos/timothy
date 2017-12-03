@@ -6,7 +6,6 @@ permalink: article/git-filter-branch-to-move-directory-and-its-commits-across-re
 categories:
   - development
 tags:
-  - technology
   - git
   - filter-branch
 disqus:
