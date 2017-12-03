@@ -1,4 +1,5 @@
 @import "settings/variables";
+@import "settings/typography";
 @import "settings/tables";
 @import "settings/fontawesome/font-awesome";
 
@@ -7,6 +8,6 @@
 @import "settings/mixins";
 @import "settings/global";
 @import "timothy";
-@import "settings/typography";
 
 @import "components/navigation";
+@import "components/category";

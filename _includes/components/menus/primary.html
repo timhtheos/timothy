@@ -10,13 +10,13 @@
     {% if tags_list.first[0] == null %}
       {% for tag in tags_list %} 
         <li class="menu-link">
-          <a href="/category/{{ tag | replace: ' ','-' }}">{{ tag | capitalize_all }} ({{ site.tags[tag].size }})</a>
+          <a href="/category/{{ tag | replace: ' ','-' }}"><i class="fa fa-tag" aria-hidden="true"></i> {{ tag | capitalize_all }} ({{ site.tags[tag].size }})</a>
         </li>
       {% endfor %}
     {% else %}
       {% for tag in tags_list %} 
         <li class="menu-link">
-          <a href="/category/{{ tag[0] | replace: ' ','-' }}">{{ tag[0] | capitalize_all }} ({{ tag[1].size }})</a>
+          <a href="/category/{{ tag[0] | replace: ' ','-' }}"><i class="fa fa-tag" aria-hidden="true"></i> {{ tag[0] | capitalize_all }} ({{ tag[1].size }})</a>
         </li>
       {% endfor %}
     {% endif %}
