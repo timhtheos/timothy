@@ -2,32 +2,36 @@
  * Front header.
  */
 
-.region-content-header {
-  position: relative;
-  width: 100%;
-  height: 0;
-  padding-bottom: 56.25%;
-  margin-top: 75px;
-
-  @media #{$large-up} {
-    margin-top: 0;
-  }
-
-  > iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
+.front {
+  .region-content-header {
+    position: relative;
     width: 100%;
-    height: 100%;
-  }
-}
+    height: 0;
+    padding-bottom: 56.25%;
+    margin-top: 75px;
+    // height: 100vh;
 
-.region-top {
-  @media #{$large-up} {
-    background-color: rgba($color--black, 0.50) !important;
-  }
-}
+    @media #{$large-up} {
+      margin-top: 0;
+    }
 
-.region-content {
-  margin-top: 5px !important;
+    > iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      // height: 100vh
+    }
+  }
+
+  .region-top {
+    @media #{$large-up} {
+      background-color: rgba($color--black, 0.50) !important;
+    }
+  }
+
+  .region-content {
+    margin-top: 5px !important;
+  }
 }
