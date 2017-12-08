@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-front
 ---
 
 {% for post in site.categories.development %}
