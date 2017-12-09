@@ -1,6 +1,14 @@
 <div class="row region-content-header">
-  {% comment %}
-  <iframe src="https://www.youtube.com/embed/f1x16SkHizQ?rel=0&controls=0&showinfo=0&autoplay=1" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-  {% endcomment %}
-  <iframe src="https://www.youtube.com/embed/jsB-PwkhXV8?rel=0&controls=0&showinfo=0&autoplay=1" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+  <iframe src="" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 </div>
+
+<script>
+$(document).ready(function() {
+  var yt_ids    = new Array({% for id in site.yt.ids %}{% if forloop.index != 1 %}, {% endif %}"{{ id }}"{% endfor %}),
+      yt_id     = yt_ids[Math.floor(Math.random() * yt_ids.length)],
+      yt_src    = "https://www.youtube.com/embed/" + yt_id + "?rel=0&controls={{ site.yt.controls }}&showinfo={{ site.yt.showinfo }}&autoplay={{ site.yt.autoplay }}",
+      yt_iframe = $(".front .region-content-header > iframe");
+
+  $(yt_iframe).attr("src", yt_src);
+});
+</script>

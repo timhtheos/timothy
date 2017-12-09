@@ -46,3 +46,13 @@ jekyll-archives:
     day: '/:year/:month/:day/'
     tag: '/tag/:name/'
     category: '/category/:name/'
+
+yt:
+  autoplay: 1
+  controls: 0
+  showinfo: 0
+  ids:
+    # fall into you
+    - f1x16SkHizQ
+    # am2pm
+    - jsB-PwkhXV8
