@@ -1,0 +1,52 @@
+<script>
+var yt_ids    = new Array(
+                  {% for id in site.yt.ids %}
+                    {% if forloop.index != 1 %}, {% endif %}
+                    {
+                      id: "{% if id.id %}{{ id.id }}{% else %}{{ id }}{% endif %}"
+                      {% if id.dimension %}
+                        , dimension: 
+                        {
+                          {% if id.dimension.width %}
+                            width: "{{ id.dimension.width }}"
+                          {% endif %}
+                          {% if id.dimension.height %}
+                            , height: "{{ id.dimension.height }}"
+                          {% endif %}
+                        }
+                      {% endif %}
+                      {% if id.autoplay %}
+                        , autoplay: "{{ id.autoplay }}"
+                      {% endif %}
+                      {% if id.controls %}
+                        , controls: "{{ id.controls }}"
+                      {% endif %}
+                      {% if id.showinfo %}
+                        , showinfo: "{{ id.showinfo }}"
+                      {% endif %}
+                    }
+                  {% endfor %}),
+    yt_id     = yt_ids[Math.floor(Math.random() * yt_ids.length)],
+    yt_src    = "https://www.youtube.com/embed/" + yt_id.id + "?rel=0&controls={{ site.yt.controls }}&showinfo={{ site.yt.showinfo }}&autoplay={{ site.yt.autoplay }}",
+    yt_iframe = ".front .region-content-header > iframe";
+
+//if (yt_id.dimension && yt_id.dimension.width) {
+//  var yt_dimension_width = parseInt(yt_id.dimension.width);
+//}
+//{% if site.yt.dimension.width %}
+//else {
+  var yt_dimension_width = {{ site.yt.dimension.width }};
+//}
+//{% endif %}
+
+
+//if (yt_id.dimension && yt_id.dimension.height) {
+//  var yt_dimension_height = parseInt(yt_id.dimension.height);
+//}
+//{% if site.yt.dimension.height %}
+//else {
+  var yt_dimension_height = {{ site.yt.dimension.height }};
+//}
+//{% endif %}
+
+</script>

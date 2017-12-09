@@ -39,34 +39,34 @@ $(document).ready(function() {
     }
   });
 
-  function responsive_header_video() {
-    var ytv = $(".front .region-content-header > iframe"),
-        wh = $( window ).height(),
-        ww = $( window ).width(),
-        rw = 889,
-        rh = 500,
-        r = rw/rh;
+  $(yt_iframe).attr("src", yt_src);
 
-    if (ww/wh == r) {
-      $(ytv).css("width", "100%");
-      $(ytv).css("height", "100%");
-      $(ytv).css("top", "0");
-      $(ytv).css("left", "0");
-    }
+  var rw = yt_dimension_width,
+      rh = yt_dimension_height,
+      r = rw/rh;
+
+  function responsive_header_video() {
+    var wh = $( window ).height(),
+        ww = $( window ).width(),
+        w  = ww,
+        h  = wh,
+        t  = 0,
+        l  = 0;
 
     if (ww/wh < r) {
-      $(ytv).css("width", ((((wh-rh)/rh)*rw)+rw) + "px")
-      $(ytv).css("height", "100%")
-      $(ytv).css("top", "0")
-      $(ytv).css("left", (((((((wh-rh)/rh)*rw)+rw)-ww)/2)*-1) + "px");
+      var w = (((wh-rh)/rh)*rw)+rw,
+          l = ((((((wh-rh)/rh)*rw)+rw)-ww)/2)*(-1);
     }
 
     if (ww/wh > r) {
-      $(ytv).css("width", "100%");
-      $(ytv).css("height", ((((ww-rw)/rw)*rh)+rh) + "px");
-      $(ytv).css("top", (((((((ww-rw)/rw)*rh)+rh)-wh)/2)*-1) + "px");
-      $(ytv).css("left", "0");
+      var h = (((ww-rw)/rw)*rh)+rh,
+          t = ((((((ww-rw)/rw)*rh)+rh)-wh)/2)*(-1);
     }
+
+    $(yt_iframe).css("width", w + "px");
+    $(yt_iframe).css("height", h + "px");
+    $(yt_iframe).css("top", t + "px");
+    $(yt_iframe).css("left", l + "px");
   }
 
   responsive_header_video();
