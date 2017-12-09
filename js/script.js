@@ -39,4 +39,40 @@ $(document).ready(function() {
     }
   });
 
+  function responsive_header_video() {
+    var ytv = $(".front .region-content-header > iframe"),
+        wh = $( window ).height(),
+        ww = $( window ).width(),
+        rw = 889,
+        rh = 500,
+        r = rw/rh;
+
+    if (ww/wh == r) {
+      $(ytv).css("width", "100%");
+      $(ytv).css("height", "100%");
+      $(ytv).css("top", "0");
+      $(ytv).css("left", "0");
+    }
+
+    if (ww/wh < r) {
+      $(ytv).css("width", ((((wh-rh)/rh)*rw)+rw) + "px")
+      $(ytv).css("height", "100%")
+      $(ytv).css("top", "0")
+      $(ytv).css("left", (((((((wh-rh)/rh)*rw)+rw)-ww)/2)*-1) + "px");
+    }
+
+    if (ww/wh > r) {
+      $(ytv).css("width", "100%");
+      $(ytv).css("height", ((((ww-rw)/rw)*rh)+rh) + "px");
+      $(ytv).css("top", (((((((ww-rw)/rw)*rh)+rh)-wh)/2)*-1) + "px");
+      $(ytv).css("left", "0");
+    }
+  }
+
+  responsive_header_video();
+
+  $(window).on('resize', function () {
+    responsive_header_video();
+  });
+
 });
