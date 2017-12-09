@@ -63,6 +63,7 @@ yt:
     fs: 0
     autohide: 0
     mute: 0
+    enablejsapi: 1
   ids:
     # fall into you
     - f1x16SkHizQ

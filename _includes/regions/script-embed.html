@@ -58,4 +58,12 @@ var yt_ids    = new Array(
 //}
 //{% endif %}
 
+$(document).ready(function() {
+{% if site.yt.settings.mute %}
+  {% if site.yt.settings.mute == 1 %}
+    $(".front .yt-controls").addClass("mute");
+  {% endif %}
+{% endif %}
+});
+
 </script>

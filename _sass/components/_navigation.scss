@@ -28,3 +28,36 @@
     margin-top: 25px;
   }
 }
+
+.front .yt-controls {
+
+  color: #fff;
+  margin-right: 20px;
+  width: 28px;
+  cursor: pointer;
+
+  &.mute {
+    @include iconize("volume-off");
+  }
+  &.mute:hover {
+    // @include iconize("volume-up");
+  }
+
+  &:not(.mute) {
+    @include iconize("volume-up");
+  }
+  &:not(.mute):hover {
+    // @include iconize("volume-off");
+  }
+
+  &:hover {
+    width: 28px;
+    color: $color--primary;
+  }
+
+  &:before {
+    display: block;
+    font-size: 30px;
+    width: 28px;
+  }
+}
