@@ -9,11 +9,11 @@
     height: 100vh;
     overflow: hidden;
 
-    margin-top: 0;
-
     @media #{$large-up} {
       margin-top: 0;
     }
+
+    margin-top: 0;
 
     > iframe {
       position: absolute;
@@ -28,6 +28,8 @@
     @media #{$large-up} {
       background-color: rgba($color--black, 0.50) !important;
     }
+    
+    background-color: rgba($color--black, 0.50) !important;
   }
 
   .region-content {
