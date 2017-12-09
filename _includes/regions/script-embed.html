@@ -27,7 +27,16 @@ var yt_ids    = new Array(
                     }
                   {% endfor %}),
     yt_id     = yt_ids[Math.floor(Math.random() * yt_ids.length)],
-    yt_src    = "https://www.youtube.com/embed/" + yt_id.id + "?rel=0&controls={{ site.yt.controls }}&showinfo={{ site.yt.showinfo }}&autoplay={{ site.yt.autoplay }}",
+    yt_params = new Array(
+                  {% if site.yt.settings %}
+                    {% for setting in site.yt.settings %}
+                      {% if forloop.index != 1 %}, {% endif %}
+                      "{{ setting[0] }}={{ setting[1] }}"
+                    {% endfor %}
+                  {% endif %}
+                ),
+    yt_pf     = Array.prototype.join.call(yt_params, "&"),
+    yt_src    = "https://www.youtube.com/embed/" + yt_id.id + "?" + yt_pf,
     yt_iframe = ".front .region-content-header > iframe";
 
 //if (yt_id.dimension && yt_id.dimension.width) {
