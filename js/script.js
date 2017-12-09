@@ -66,11 +66,10 @@ $(document).ready(function() {
       var t = ((((((ww-rw)/rw)*rh)+rh)-wh)/2)*(-1) - (75/2);
     }
 
-    $(yt_iframe)
-      .css("width", w + "px"),
-      .css("height", h + "px"),
-      .css("top", t + "px"),
-      .css("left", l + "px");
+    $(yt_iframe).css("width", w + "px");
+    $(yt_iframe).css("height", h + "px");
+    $(yt_iframe).css("top", t + "px");
+    $(yt_iframe).css("left", l + "px");
 
     // Because I reverted back the top nav bar to not transparent. (part 1/2)
     $('.front .region-content-header').css("margin-top", "75px");
