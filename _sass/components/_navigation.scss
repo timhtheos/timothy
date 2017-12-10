@@ -30,34 +30,55 @@
 }
 
 .front .yt-controls {
-
-  color: #fff;
   margin-right: 20px;
-  width: 28px;
-  cursor: pointer;
+  display: flex;
 
-  &.mute {
-    @include iconize("volume-off");
-  }
-  &.mute:hover {
-    // @include iconize("volume-up");
-  }
+  li {
+    @include display-flex("!important");
+    @include flex("align-items", "center");
 
-  &:not(.mute) {
-    @include iconize("volume-up");
-  }
-  &:not(.mute):hover {
-    // @include iconize("volume-off");
+    margin-right: 5px;
   }
 
-  &:hover {
+  .play,
+  .volume {
+    color: #fff;
     width: 28px;
-    color: $color--primary;
+    cursor: pointer;
+
+    &:hover {
+      width: 28px;
+      color: $color--primary;
+    }
+
+    &:before {
+      display: block;
+      font-size: 30px;
+      width: 28px;
+    }
   }
 
-  &:before {
-    display: block;
-    font-size: 30px;
-    width: 28px;
+  .play {
+    &.pause {
+      @include iconize("pause");
+    }
+
+    &:not(.pause) {
+      @include iconize("play");
+    }
+
+    &:before {
+      font-size: 25px;
+    }
+  }
+
+  .volume {
+    &.mute {
+      @include iconize("volume-off");
+    }
+
+    &:not(.mute) {
+      @include iconize("volume-up");
+    }
   }
 }

@@ -102,21 +102,26 @@ $(document).ready(function() {
     responsiveHeaderVideo();
   });
 
-  $(".front .yt-controls").click(function() {
+  $(".front .yt-controls .play").click(function() {
+    if ($(this).hasClass("pause")) {
+      player.playVideo();
+    }
+    else {
+      player.pauseVideo();
+    }
+
+    $(this).toggleClass("pause");
+  });
+
+  $(".front .yt-controls .volume").click(function() {
     if ($(this).hasClass("mute")) {
       player.unMute();
     }
     else {
       player.mute();
     }
+
     $(this).toggleClass("mute");
   });
-
-  // if ($(".front .yt-controls").hasClass("mute")) {
-  //   player.mute();
-  // }
-  // else {
-  //   player.unMute();
-  // }
 
 });
