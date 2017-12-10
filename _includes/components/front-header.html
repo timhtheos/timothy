@@ -1,4 +1,16 @@
 <div class="row region-content-header">
-   <iframe id="ytplayer" type="text/html" src="https://www.youtube.com/embed/f1x16SkHizQ?controls=0&showinfo=0&rel=0&enablejsapi=1" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen="0"></iframe>
+  <iframe id="ytplayer" type="text/html" src="https://www.youtube.com/embed/f1x16SkHizQ?controls=0&showinfo=0&rel=0&enablejsapi=1" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen="0"></iframe>
+  {% if site.yt.captions %}
+    <div class="video_captions">
+      <div class="captions-wrapper">
+        {% if site.yt.captions.title %}
+        <h2>{{ site.yt.captions.title }}</h2>
+        {% endif %}
+        {% if site.yt.captions.subtitle %}
+          <h3>{{ site.yt.captions.subtitle }}</h3>
+        {% endif %}
+      </div>
+    </div>
+  {% endif %}
   <div class="video_cover"></div>
 </div>

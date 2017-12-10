@@ -64,6 +64,9 @@ yt:
     autohide: 0
     mute: 0
     enablejsapi: 1
+  captions:
+    title: Trance Memorial Section
+    subtitle: Coming soon
   # ids are youtube ids and can declared as:
   # - jsB-PwkhXV8
   # or:
