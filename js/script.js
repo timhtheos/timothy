@@ -1,3 +1,6 @@
+---
+---
+
 var tag = document.createElement('script');
 tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
@@ -59,6 +62,49 @@ $(document).ready(function() {
     }
   });
 
+  var yt_ids    = new Array(
+                    {% for id in site.yt.ids %}
+                      {% if forloop.index != 1 %}, {% endif %}
+                      {
+                        id: "{% if id.id %}{{ id.id }}{% else %}{{ id }}{% endif %}"
+                        {% if id.dimension %}
+                          , dimension: 
+                          {
+                            {% if id.dimension.width %}
+                              width: "{{ id.dimension.width }}"
+                            {% endif %}
+                            {% if id.dimension.height %}
+                              , height: "{{ id.dimension.height }}"
+                            {% endif %}
+                          }
+                        {% endif %}
+                        {% if id.autoplay %}
+                          , autoplay: "{{ id.autoplay }}"
+                        {% endif %}
+                        {% if id.controls %}
+                          , controls: "{{ id.controls }}"
+                        {% endif %}
+                        {% if id.showinfo %}
+                          , showinfo: "{{ id.showinfo }}"
+                        {% endif %}
+                      }
+                    {% endfor %}),
+      yt_id     = yt_ids[Math.floor(Math.random() * yt_ids.length)],
+      yt_params = new Array(
+                    {% if site.yt.settings %}
+                      {% for setting in site.yt.settings %}
+                        {% if forloop.index != 1 %}, {% endif %}
+                        "{{ setting[0] }}={{ setting[1] }}"
+                      {% endfor %}
+                    {% endif %}
+                  ),
+      yt_pf     = Array.prototype.join.call(yt_params, "&"),
+      yt_src    = "https://www.youtube.com/embed/" + yt_id.id + "?" + yt_pf,
+      yt_iframe = ".front .region-content-header > iframe";
+  
+  var yt_dimension_width = {{ site.yt.dimension.width }};
+  var yt_dimension_height = {{ site.yt.dimension.height }};
+
   $(yt_iframe).attr("src", yt_src);
 
   var rw = yt_dimension_width,
@@ -97,6 +143,12 @@ $(document).ready(function() {
   }
 
   responsiveHeaderVideo();
+
+  {% if site.yt.settings.mute %}
+    {% if site.yt.settings.mute == 1 %}
+      $(".front .yt-controls .volume").addClass("mute");
+    {% endif %}
+  {% endif %}
 
   $(window).on('resize', function () {
     responsiveHeaderVideo();
