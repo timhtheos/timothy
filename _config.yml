@@ -64,9 +64,14 @@ yt:
     autohide: 0
     mute: 0
     enablejsapi: 1
+  # ids are youtube ids and can declared as:
+  # - jsB-PwkhXV8
+  # or:
+  # -
+  #   id: jsB-PwkhXV8
   ids:
     # fall into you
-    - f1x16SkHizQ
+    # - f1x16SkHizQ
     # am2pm
     - 
       id: jsB-PwkhXV8
