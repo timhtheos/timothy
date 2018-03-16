@@ -1,5 +1,5 @@
 title: Timothy Escopete
-url: "https://timothy.sh"
+url: "https://timothyae.com"
 baseurl: ""
 
 markdown: kramdown
@@ -21,7 +21,7 @@ disqus:
   handle: timhtheos
   url:
     old:  timothy.sh
-    new:  timothy.sh
+    new:  timothyae.com
 
 # Alias generator.
 safe: false
