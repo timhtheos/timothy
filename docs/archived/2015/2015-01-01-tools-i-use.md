@@ -52,6 +52,8 @@ present
 : is short for `Vim Vundle`.
 : *why?* A former colleague said, he is using [pathogen](https://github.com/tpope/vim-pathogen/), so I have decided to use an alternative.
 
+{% include ad_header.html %}
+
 ## Vim Plugins
 
 I have a lot of installed vim plugins on my local, but I only use some of it. Some are the following:
@@ -100,6 +102,8 @@ I have a lot of installed vim plugins on my local, but I only use some of it. So
     </html>
     ~~~
 
+    {% include ad_inline.html %}
+
 12. Rstacruz's [sparkup](https://github.com/rstacruz/sparkup) - Similar to emmet but can do more.  For examples, see [here](https://github.com/rstacruz/sparkup#examples).
 
 13. Valloric's [YouCompeleteMe](https://github.com/Valloric/YouCompleteMe) - A code completion engine for Vim. See animated screenshot below:
@@ -144,6 +148,8 @@ There are other plugins that I use passively. Some I have not yet explored. For 
 
     b) *git* and other git- plugins
 
+    {% include ad_inline.html %}
+
 ## Mux / Multiplexer
 
 1.  GNU Screen - In remote servers, I use screen to manage my sessions.
@@ -167,6 +173,8 @@ I use [rcm](https://github.com/thoughtbot/rcm). It is a management suite for dot
 1.  Chrome - only for browsing.
 
 2.  Firefox - only for theming and debugging.
+
+    {% include ad_inline.html %}
 
 ## Music Daemon and Player
 

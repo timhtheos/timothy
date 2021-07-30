@@ -13,6 +13,8 @@ Information in this page is outdated.
 > My resolutions shalt fail if not by Thy grace and mercy.  Should I then retract from making commitments to myself and before the Lord?  Perish that thought.  I shalt go on to maturity and perfection, and by perfection, I do not mean moral sinlessness, but rather making Thee the chief and the highest end of myself and everything.  I am resolved, to remind myself always, that Thy judgement and discipline begin in the Thine house.  Lord, give what Thou commandest, and command what Thou wilt.
 
 ---
+{% include ad_header.html %}
+---
 
 ~~~
 Sun, Aug. 20, 2017
