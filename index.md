@@ -16,6 +16,8 @@ I started this site with Drupal 6. At a point, I upgraded to Drupal 7. And in 20
 
 Before, I had several linux server instances in AWS, Digital Ocean, Linode, and Vultr for this site, which I am paying for $5 to $10 monthly for years. This site now is hosted in Netlify for free since 2017 when I moved to Jekyll.
 
+{% include inline_ad.html %}
+
 I tried coming up with my own design and theme in the past, and all, but I quickly lost appetite with the looks of what I'm converting from design to Drupal or Jekyll theme. So everything ends up unfinished. I did it several times. I gave up several times too. This time, I'm using, a free Jekyll theme, which doesn't need me to convert from one framework to the other, etc. (e.g. from plain html to jekyll). See below for the credits.
 
 This site has been under construction since 2008.
