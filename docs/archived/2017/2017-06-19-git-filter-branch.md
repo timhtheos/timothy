@@ -11,6 +11,7 @@ tags:
   - git
   - filter-branch
 disqus:
+  old: true
   path: git-filter-branch
 teaser: >
   Suppose, you want to move a directory from a repository A to be merged into
