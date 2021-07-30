@@ -2,3 +2,12 @@ _site
 .sass-cache
 .DS_Store
 .tmp_staging
+
+*.gem
+.bundle
+.ruby-version
+.jekyll-cache
+.sass-cache
+_site
+Gemfile.lock
+node_modules
