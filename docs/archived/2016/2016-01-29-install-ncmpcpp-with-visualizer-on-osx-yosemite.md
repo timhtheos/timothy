@@ -5,6 +5,9 @@ date: 2016-01-29
 nav_order: 76
 parent: Archived
 permalink: article/install-ncmpcpp-with-visualizer-on-osx-yosemite
+disqus:
+  old: true
+  path: article/install-mpd-ncmpcpp-on-osx-yosemite
 categories:
   - development
 tags:
