@@ -1,7 +1,7 @@
 title: timothyae.com
 description: Official website of Timothy Escopete
 baseurl: ""
-url: ""
+url: "https://timothyae.com"
 
 permalink: pretty
 
@@ -118,3 +118,9 @@ kramdown:
 compress_html:
   ignore:
     envs: all
+
+disqus:
+  handle: timhtheos
+  url:
+    old:  timothy.sh
+    new:  timothyae.com
