@@ -13,6 +13,9 @@ tags:
   - cowsay
   - fortune
   - osx
+disqus:
+  old: true
+  path: article/osx-randomize-cow-in-cowsay-with-fortune
 ---
 
 Information in this page is outdated. Last update was made on {{ page.date | date_to_long_string }}
