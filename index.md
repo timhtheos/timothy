@@ -8,7 +8,7 @@ permalink: /
 
 # timothyae.com
 
-Welcome to my personal, but public, website. This website has started in 2008, has been planned to deprecate in favor of another TLD, but survived the pandemic until today.
+Welcome to my personal, but public, website. This website  started in 2008, has been planned to deprecate in favor of another TLD, but survived the pandemic until today.
 
 I have decided to give my site another fresh look, and to archive all of the post I did in the past.
 
