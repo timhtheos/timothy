@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Whoami 
-permalink: whoami/
+permalink: whoami
 nav_order: 96
 ---
 

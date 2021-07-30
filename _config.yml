@@ -119,6 +119,8 @@ compress_html:
   ignore:
     envs: all
 
+# Ancient disqus settings.
+# Yeah, because I switched domains twice.
 disqus:
   handle: timhtheos
   url:

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Confessions
-permalink: confessions/
+permalink: confessions
 teaser: >
   I am intolerant, narrow minded, and stubbornly committed to that which
   is taught by God and declared by his Word. The Bible demands a very

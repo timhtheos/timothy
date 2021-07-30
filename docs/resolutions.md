@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Resolutions
-permalink: resolutions/
+permalink: resolutions
 nav_order: 97
 ---
 
