@@ -19,3 +19,10 @@ Before, I had several linux server instances in AWS, Digital Ocean, Linode, and 
 I tried coming up with my own design and theme in the past, and all, but I quickly lost appetite with the looks of what I'm converting from design to Drupal or Jekyll theme. So everything ends up unfinished. I did it several times. I gave up several times too. This time, I'm using, a free Jekyll theme, which doesn't need me to convert from one framework to the other, etc. (e.g. from plain html to jekyll). See below for the credits.
 
 This site has been under construction since 2008.
+
+## Top articles in the past 
+
+1. [Install ncmpcpp with visualizer on OSX [Yosemite]](/article/install-ncmpcpp-with-visualizer-on-osx-yosemite) 
+2. [OSX: Randomize cow in Cowsay with Fortune](/article/osx-randomize-cow-in-cowsay-with-fortune)
+3. [Run mpd daemon automatically](/article/run-mpd-daemon-automatically)
+4. [How to use git filter-branch to move a directory from one repository to the other including its history of commits](/article/git-filter-branch-to-move-directory-and-its-commits-across-repositories)
