@@ -3,6 +3,7 @@ layout: archive
 title: Whoami 
 permalink: whoami
 nav_order: 4
+no_comments: true
 ---
 
 {% include toc.html %}

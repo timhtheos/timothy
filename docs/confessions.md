@@ -11,6 +11,7 @@ teaser: >
   (Matt. 7:14).
 date: 2015-12-25
 nav_order: 6
+no_comments: true
 ---
 
 {% include toc.html %}

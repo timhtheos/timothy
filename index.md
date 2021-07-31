@@ -4,27 +4,29 @@ title: Home
 nav_order: 1
 description: "Official website of Timothy Escopete."
 permalink: /
+no_comments: true
 ---
 
 # timothyae.com
 
 Welcome to my personal, but public, website. This domain name was registered in 2008. In 2017, I registered another TLD and planned to move completely to it while slowly deprecating this domain name; but here comes 2021,
-the site, its renewals, etc, has survived the pandemic and is still up.
+the site, its renewals, etc, have survived the pandemic and is still up.
 
-I have decided to give my site another fresh look, and to archive all of the post I did in the past, after years of not updating my site.
+I have decided to give my site another fresh look, and to archive all of the post/articles I did in the past, after years of not updating my site.
 
 I started this site with Drupal 6. At a point, I upgraded to Drupal 7. And in 2017 I moved to Jekyll.
 
 Before, I had several linux server instances in AWS, Digital Ocean, Linode, and Vultr for this site, which I am paying for $5 to $10 monthly for years.
-I also had other servers which I initialize from time to time which costs between $10 to $25 monthly. I even almost subscribed to a dedicated server at $150 per month.
-Also, I planned on collocation, and static IP internet connection (which has its ports open publicly) for years, which its interest gets resurrected from time to time.
+I also had other servers which I initialize from time to time which costs between $10 to $25 monthly. I even almost tried a dedicated server at $150 per month.
+Also, I planned on collocation, and static IP internet connection (which has its ports open publicly) very often. The former, being expensive, and the latter, being not available for residential subscription, and business ones would require paper works not to mention the costs too, at lower speed.
 
-All of that, I said, stop. I've been spending money for those servers as a hobby, for years. I'm not even a system admin, or a DevOps, by profession.
-A friend who is a system admin / DevOps by profession; not a single server.
+I've been spending money for those servers as a hobby, for years that if I have to look back in retrospect, was a waste of money. I'm not even a systems admin, or a DevOps, by profession.
+I have a friend who is one, but not a single server.
 
-This site now is hosted in Netlify for free since 2017 when I moved to Jekyll. I still have paid servers, 2 from vultr and hostwind, and 1 Google Suite for an unlimited space of storage.
+This site now is hosted in Netlify for free since 2017 when I moved to Jekyll. I still have paid servers, 2 from vultr and hostwind, and 1 Google Suite for an unlimited space of storage, which I store all raw footages of my CCTVs at home 24/7/365. Crazy? Don't ask me what's its use; I'm in a way a digital hoarder.
 
 My long term plan is to get rid of the remaining paid cloud services I have. My priority for this year is the one from hostwind and vultr. I'll probably keep Google Suite for a year or two until I can invest for NAS system at home.
+As to me hoarding digital assets, I still don't see myself divorcing from it anytime soon.
 
 {% include ad_inline.html %}
 
