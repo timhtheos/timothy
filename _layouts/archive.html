@@ -7,10 +7,6 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 
-<div class="ad-sidebar-left">
-  {% include ad_sq.html %}
-</div>
-
 <style>
 .ad-sidebar-left {
   float: right;
@@ -40,5 +36,9 @@ layout: default
   clear: both;
 }
 </style>
+
+<div class="ad-sidebar-left">
+  {% include ad_sq.html %}
+</div>
 
 {{ content }}
