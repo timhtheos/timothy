@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: archive
 title: Tools I Use
 date:   2015-01-01
-nav_order: 90
-# parent: Archived
+nav_order: -20150101
+# parent: 2015
 permalink: tools-i-use
 categories:
   - development
@@ -21,11 +21,6 @@ tags:
   - apache
   - vagrant
 ---
-
-Information in this page is outdated. Last update was made on {{ page.date | date_to_long_string }}
-{: .label .label-red }
-
-# {{ page.title }}
 
 The tools listed here are the tools I personally use for development, and other matters. I have arranged them in categories, as well as provided information (when I can) as to when I started using them.
 

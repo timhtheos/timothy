@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: archive
 title: "OSX: Randomize cow in Cowsay with Fortune"
 date: 2015-10-01
-nav_order: 85
-parent: Archived
+nav_order: -2015-10-01
+parent: 2015
 permalink: article/osx-randomize-cow-in-cowsay-with-fortune
 categories:
   - development
@@ -17,11 +17,6 @@ disqus:
   old: true
   path: article/osx-randomize-cow-in-cowsay-with-fortune
 ---
-
-Information in this page is outdated. Last update was made on {{ page.date | date_to_long_string }}
-{: .label .label-red }
-
-# {{ page.title }}
 
 Cowsay is a program which generates ASCII pictures of a cow with a message. It can also generate pictures using pre-made images of other animals, such as Tux the Penguin, the Linux mascot.  While fortune is a simple program that displays a pseudorandom message from a database of quotations.
 
