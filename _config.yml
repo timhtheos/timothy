@@ -75,7 +75,7 @@ nav_sort: case_sensitive
 back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: "This site uses a fork version of <a href=\"https://github.com/pmarsceill/just-the-docs\">Just the Docs</a>, a documentation theme for Jekyll, by Patrick Marsceill."
+footer_content: "This site uses a fork version of <a href=\"https://github.com/pmarsceill/just-the-docs\">Just the Docs</a>, a documentation theme for Jekyll, by Patrick Marsceill.<br>Copyright © 2008-2021 Timothy Escopete.<br>All rights reserved as provided by law."
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
