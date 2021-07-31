@@ -22,6 +22,8 @@ tags:
   - law
 ---
 
+{% include toc.html %}
+
 ### Case Title(s)
 
 - Saturnino C. Ocampo, et al. Vs. Rear Admiral Ernesto C. Enriquez, et al.

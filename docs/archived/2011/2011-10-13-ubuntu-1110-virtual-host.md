@@ -11,6 +11,8 @@ tags:
 permalink: article/ow-to-setup-virtual-host-in-ubuntu-1110-via-terminal-or-putty
 ---
 
+{% include toc.html %}
+
 This article is a personal recollection of what I did when I installed a virtual host in my remote instance server running Ubuntu 11.10. It is presumed that Apache server is setup and running. Also make sure that the domain name's `A` record in the DNS Management of your domain name, is already pointing to the IP address of the instance server, otherwise, you may edit your hostfile to temporarily point your domain to your server's IP address, locally.
  
 Go to `/etc/apache2/sites-available/`
@@ -19,6 +21,8 @@ Go to `/etc/apache2/sites-available/`
 cd /etc/apache2/sites-available
 ```
  
+## Create site configuration
+
 Create a configuration file for the virtual host that you want to create. I used the domain name (as the filename) which points to the said virtual host - in this case, `timothyae.com` as a filename. Any filename will do. To create/edit, you can use any editor that you want. I used `nano`. Also, you need a "super user" permission.
  
 ```
@@ -53,6 +57,8 @@ mkdir -p html
  
 The above, sets current directory (cd) to the `/var` and creates (mkdir) `timothyae.com` directory. `chown`, changes the ownership of `timothyae.com` directory from `super user` (since we created the directory using sudo) to `timothy`. Don't forget to change `timothy` to your username. `chmod` changes permission of `timothyae.com` directory to a public directory. As you see here, I did not use `sudo` anymore because the target directory is already owned by `timothy`.
 
+# Enable configuration
+
 Now that we have the virtual host configuration file and the directories setup, we can now enable the site.
  
 ```
@@ -66,5 +72,7 @@ It is `sudo a2ensite timothyae.com` because our configuration file is `timothyae
 ```
 sudo service apache2 restart
 ```
+
+## Check your site
  
 After restarting `Apache`, go to `/var/timothyae.com/html/` and add a file `index.html` or `index.php`.  Add some text inside it and check your website in your browser.

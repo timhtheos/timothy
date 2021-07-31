@@ -12,6 +12,8 @@ tags:
   - virtualbox
 ---
 
+{% include toc.html %}
+
 You may at one point deleted a vagrant directory, accidentally.  Perhaps you had that project, finished, and wasn't able to have it up for too long.  This will make your vagrant virtual machine as an orphaned VM.  So you went ahead and opened your vagrant's default provider, e.g., Virtualbox, and delete these VMs.  What you did not realise is that, the vagrant entry is still there.
 
 To check all list of vagrant instances, execute `vagrant global-status` in your terminal.  Check all instances against the one listed in your provider.

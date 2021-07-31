@@ -13,6 +13,8 @@ tags:
   - routine
 ---
 
+{% include toc.html %}
+
 My Cebu life has been a routine after I decided it to be.
 
 ## Pilgrims Progress

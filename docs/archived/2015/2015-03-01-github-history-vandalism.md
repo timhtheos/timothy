@@ -13,6 +13,8 @@ tags:
   - bash
 ---
 
+{% include toc.html %}
+
 A former colleague introduced me to [gelstudios](https://github.com/gelstudios)' [gitfiti](https://github.com/gelstudios/gitfiti).  It's a tool to decorate your github account's commit history calendar by (blatantly) abusing git's ability to accept commits *in the past*.
 
 I tested it, and it works as described.

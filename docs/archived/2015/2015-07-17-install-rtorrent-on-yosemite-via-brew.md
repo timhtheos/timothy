@@ -12,10 +12,7 @@ tags:
   - yosemite
 ---
 
-Information in this page is outdated. Last update was made on {{ page.date | date_to_long_string }}
-{: .label .label-red }
-
-# {{ page.title }}
+{% include toc.html %}
 
 The following steps are the easiest way to install rtorrent - a console-based torrent client - on OSX Yosemite.  The same may work on Mavericks and previous versions, but not personally tested.  I previously installed it with the previous OS differently which I cannot recount anymore.
 

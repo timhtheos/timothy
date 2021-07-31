@@ -12,6 +12,8 @@ tags:
 permalink: article/create-nginx-proxy-pass
 ---
 
+{% include toc.html %}
+
 An nginx proxy pass server is where you pass a request from nginx to
 proxied servers, whether this be another nginx or other web servers, over
 different protocols.

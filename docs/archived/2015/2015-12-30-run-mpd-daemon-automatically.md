@@ -23,6 +23,8 @@ disqus:
   path: article/run-mpd-daemon-automatically
 ---
 
+{% include toc.html %}
+
 In article [Install mpd + ncmpcpp on OSX Yosemite](/article/install-mpd-ncmpcpp-on-osx-yosemite), many asked how to run mpd automatically.  This isn't an issue at first, because I run mpd manually.  I first suggested to include `mpd` into your shell rc file, but did not realise that it will run mpd each time a terminal is being opened, e.g., in new tab or window, thus resulting in `Address already in use` prompt, which may, if not, all the time, annoying.  Here, I have come up with this simple snippet to run mpd daemon only if it is not yet running.
 
 While there are ways to run mpd automatically, here's the easiest way, that I did and now henceforth personally use.

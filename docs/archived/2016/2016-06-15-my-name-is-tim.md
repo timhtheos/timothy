@@ -9,6 +9,8 @@ categories:
   - Personal
 ---
 
+{% include toc.html %}
+
 I just had my lunch, and after it, I went to the second floor and bought a fresh boku juice from Fruitful.  They asked my name and I said "Tim".  They, all the times, do this, to write the name on the cup.  They wrote "Dim".  I was angry, but just told them to consume the product because it belongs to Dim, not Tim.
 
 This isn't the first time.  They did this 95% of the time.  In Fruitful, I become Kim, Dim, Tem, Vim, among others.

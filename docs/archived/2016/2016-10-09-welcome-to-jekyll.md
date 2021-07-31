@@ -17,6 +17,8 @@ teaser: >
   for my own website, just to save paid cloud servers, among others.
 ---
 
+{% include toc.html %}
+
 After years of using Drupal 7.x on my personal website, from
 timothyae.com, to using a secure protocol, and to timothy.sh, I have
 finally decided, after serveral months of searches, to move to Jekyll for

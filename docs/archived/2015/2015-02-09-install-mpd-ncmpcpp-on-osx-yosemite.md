@@ -18,6 +18,8 @@ disqus:
 alias: article/install-mpd-ncmpcpp-on-osx-yosemite-0
 ---
 
+{% include toc.html %}
+
 I had successful installation of mpd + ncmpcpp on Linux and OSX Mavericks.  When I upgraded to Yosemite, I had this installed too, but on the exception that running `mpd` requires `--no-daemon` option.  That was last year.
 
 Early this year, I was forced to do a clean reformat and install of Yosemite.  After setting up my local, here are the steps I did to sucessfuly install mpd + ncmpcpp on Yosemite without the `--no-daemon` option.

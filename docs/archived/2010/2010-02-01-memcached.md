@@ -23,6 +23,8 @@ teaser: >
   memcached.org
 ---
 
+{% include toc.html %}
+
 ## About Memcache
 - *from memcached.org*
 - It is free & open source, high-performance, distributed memory object caching system, generic in nature, but intended for use in speeding up dynamic web applications by alleviating database load.

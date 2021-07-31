@@ -13,32 +13,34 @@ tags:
   - ubuntu
 ---
 
+{% include toc.html %}
+
 I installed plupload libraries in Drupal 7.x.  Plupload is a highly usable upload handler for any CMS or similar.  Plupload functions well if uploadprogress module is installed and enabled in PHP, though it will still function without it.
 
 ## Ubuntu 11.10 installation
 
-1.  Install PECL uploadprogress
+### Install PECL uploadprogress
 
-    ~~~
-    sudo pecl install uploadprogress
-    ~~~
+```
+sudo pecl install uploadprogress
+```
 
-2.  Edit your `php.ini` file
+### Edit your `php.ini` file
 
-    ~~~
-    sudo vim /etc/php5/apache2/php.ini
-    ~~~
+```
+sudo vim /etc/php5/apache2/php.ini
+```
 
-    and append the following:
+and append the following:
 
-    ~~~
-    extension=uploadprogress.so
-    ~~~
+```
+extension=uploadprogress.so
+```
 
-3.  Restart apache2
+### Restart apache2
 
-    ~~~
-    sudo service apache2 restart
-    ~~~
+```
+sudo service apache2 restart
+```
 
-4.  That's it.
+That's it.

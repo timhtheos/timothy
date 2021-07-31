@@ -11,6 +11,8 @@ tags:
 permalink: article/mysql-database-backup-and-restore
 ---
 
+{% include toc.html %}
+
 MySQL database backup and restore using a command line interface (cli) do not need logging in to the mysql console. This is simply because the command itself logs into it.
 
 ## Backup
