@@ -1,14 +1,9 @@
 ---
-layout: page
+layout: archive
 title: Whoami 
 permalink: whoami
-nav_order: 96
+nav_order: 4
 ---
-
-Information in this page is outdated.
-{: .label .label-red }
-
-# {{ page.title }}
 
 Hola!
 

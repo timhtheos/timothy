@@ -2,8 +2,9 @@
 layout: archive
 title: Tools I Use
 date:   2015-01-01
-nav_order: -20150101
+# nav_order: -20150101
 # parent: 2015
+nav_order: 3
 permalink: tools-i-use
 categories:
   - development

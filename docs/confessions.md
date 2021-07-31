@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: archive
 title: Confessions
 permalink: confessions
 teaser: >
@@ -10,13 +10,8 @@ teaser: >
   reality by indicating that "there are few who will find it"
   (Matt. 7:14).
 date: 2015-12-25
-nav_order: 98
+nav_order: 6
 ---
-
-Information in this page is outdated. Last update was made on {{ page.date | date_to_long_string }}
-{: .label .label-red }
-
-# {{ page.title }}
 
 Deeply influenced by the last patristic and the first medieval father of Western Christianity, **Augustine of Hippo**, who wrote the **Confessions**, his own autobiographical work, consisting of 13 books, I have decided to have the same on my website.  However, as much as I want to write personal and private stuff in a public domain, I am at the present time, restrained to do so, lest others may stumble and fall.  Hence, here, I may write daily, but in private.
 
