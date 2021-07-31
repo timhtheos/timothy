@@ -1,20 +1,15 @@
 ---
-layout: post
+layout: archive
 title: How to setup Virtual Host in Ubuntu 11.10 via terminal or Putty
 date:   2011-10-13
-nav_order: 98
-parent: Archived
+nav_order: -20111013
+parent: 2011
 categories:
   - development
 tags:
   - ubuntu
 permalink: article/ow-to-setup-virtual-host-in-ubuntu-1110-via-terminal-or-putty
 ---
-
-Information in this page is outdated. Last update was made on {{ page.date | date_to_long_string }}
-{: .label .label-red }
-
-# {{ page.title }}
 
 This article is a personal recollection of what I did when I installed a virtual host in my remote instance server running Ubuntu 11.10. It is presumed that Apache server is setup and running. Also make sure that the domain name's `A` record in the DNS Management of your domain name, is already pointing to the IP address of the instance server, otherwise, you may edit your hostfile to temporarily point your domain to your server's IP address, locally.
  

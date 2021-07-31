@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: archive
 title: Drupal 7.x multi-site set-up and configuration
 date:   2011-02-01
-nav_order: 98
-parent: Archived 2011
+nav_order: -20110201
+parent: 2011
 categories:
   - development
 tags:
@@ -11,11 +11,6 @@ tags:
   - drupal
 permalink: article/drupal-7x-multi-site-set-up-and-configuration
 ---
-
-Information in this page is outdated. Last update was made on {{ page.date | date_to_long_string }}
-{: .label .label-red }
-
-# {{ page.title }}
 
 ## Table of contents
 {: .no_toc .text-delta }
