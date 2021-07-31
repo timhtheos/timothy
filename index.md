@@ -20,6 +20,8 @@ Before, I had several linux server instances in AWS, Digital Ocean, Linode, and 
 I also had other servers which I initialize from time to time which costs between $10 to $25 monthly. I even almost tried a dedicated server at $150 per month.
 Also, I planned on collocation, and static IP internet connection (which has its ports open publicly) very often. The former, being expensive, and the latter, being not available for residential subscription, and business ones would require paper works not to mention the costs too, at lower speed.
 
+{% include ad_inline.html %}
+
 I've been spending money for those servers as a hobby, for years that if I have to look back in retrospect, was a waste of money. I'm not even a systems admin, or a DevOps, by profession.
 I have a friend who is one, but not a single server.
 
