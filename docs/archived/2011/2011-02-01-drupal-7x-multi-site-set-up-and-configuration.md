@@ -12,11 +12,7 @@ tags:
 permalink: article/drupal-7x-multi-site-set-up-and-configuration
 ---
 
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
+{% include toc.html %}
 
 Drupal has been known for its multisite feature but it lacks detailed documentation on how to set-up and configure it.
 

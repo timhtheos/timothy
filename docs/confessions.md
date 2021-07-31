@@ -13,6 +13,8 @@ date: 2015-12-25
 nav_order: 6
 ---
 
+{% include toc.html %}
+
 Deeply influenced by the last patristic and the first medieval father of Western Christianity, **Augustine of Hippo**, who wrote the **Confessions**, his own autobiographical work, consisting of 13 books, I have decided to have the same on my website.  However, as much as I want to write personal and private stuff in a public domain, I am at the present time, restrained to do so, lest others may stumble and fall.  Hence, here, I may write daily, but in private.
 
 **I am the chief of sinners.**  That's what I want to always acknowledge and remind myself, not to think that I am better than others when it comes to morality.  I have personal and selfish motives, even if I do good to others.  That in itself is wrong.  Even if I do not know that I have wrong motives, I may still have one.  By His grace I try to always examine myself of my own motives when I do good works to others.  Most of the time, yes.  I cannot, within myself, find anything innately of good nature.  To my friends, colleagues, and even enemies, don't be bothered by these.  This is in the level of my understanding of the doctrines of grace, original sin, and total depravity.  My dealings with others, in work and in society are as normal and authentic as any person can have.

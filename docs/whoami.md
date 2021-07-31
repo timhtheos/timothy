@@ -5,6 +5,8 @@ permalink: whoami
 nav_order: 4
 ---
 
+{% include toc.html %}
+
 Hola!
 
 I'm `Timothy`. My name comes from two Greek words, `Timh`, _honor or
