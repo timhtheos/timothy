@@ -29,18 +29,15 @@ couple of months, maybe.
 The following day, May 15, Monday, my best friend submitted his notice of
 resignation too; while mine, was formally accepted on that day too.
 
-The following day, Tuesday, in an i-Team, both our names were mentioned by the
-CEO of the company.  His resignation acceptance was made on that day.
+The following day, Tuesday, in an i-Team, our names were mentioned by the
+CEO of the company as an acknowledgement that the CEO has accepted our resignation.
 
 Last week's Wednesday, June 14, was my final day. The following day, all of my
 access were revoked.  The day before that, I thought of writing a bash script to
 export hipchat chat messages.  And so I did, on Thursday.
 
-Disclaimer:
+Disclaimer: *I did not export the company's chat messages whether it be private or group.*
 
-~~~
-I did not export the company's chat messages whether it be private or group.
-~~~
+Here, I want to share what I wrote.
 
-But in here, I want to share it:
-https://github.com/timhtheos/hipchat-exporter
+[Quick and Dirty Bash script to export hipchat chats](https://github.com/timhtheos/hipchat-exporter)
