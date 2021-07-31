@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: archive
 title: Memcached
-date:   2010-02-01
-nav_order: 100
-parent: Archived 2010
+date: 2010-02-01
+nav_order: -20100201
+parent: 2010
 categories:
   - development
 tags:
@@ -22,11 +22,6 @@ teaser: >
   large data caches. Its API is available for most popular languages.  -
   memcached.org
 ---
-
-Information in this page is outdated. Last update was made on {{ page.date | date_to_long_string }}
-{: .label .label-red }
-
-# {{ page.title }}
 
 ## About Memcache
 - *from memcached.org*

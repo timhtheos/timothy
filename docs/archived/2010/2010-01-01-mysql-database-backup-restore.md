@@ -1,20 +1,15 @@
 ---
-layout: post
+layout: archive
 title: MySQL Database Backup and Restore
-date:   2010-01-01
-nav_order: 101
-parent: Archived 2010
+date: 2010-01-01
+nav_order: -20100101
+parent: 2010
 categories:
   - development
 tags:
   - ubuntu
 permalink: article/mysql-database-backup-and-restore
 ---
-
-Information in this page is outdated. Last update was made on {{ page.date | date_to_long_string }}
-{: .label .label-red }
-
-# {{ page.title }}
 
 MySQL database backup and restore using a command line interface (cli) do not need logging in to the mysql console. This is simply because the command itself logs into it.
 
