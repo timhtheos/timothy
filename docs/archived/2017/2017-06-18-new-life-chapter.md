@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: archive
 title:  New life's chapter
 date:   2017-06-18
 nav_order: 40
-parent: Archived
+parent: 2017
 categories:
   - Personal
 tags:
@@ -16,11 +16,6 @@ teaser: >
   Yep, I resigned a month ago, last May 14, 2017, Sunday. It was an irrevocable
   resignation.
 ---
-
-Information in this page is outdated. Last update was made on {{ page.date | date_to_long_string }}
-{: .label .label-red }
-
-# {{ page.title }}
 
 Today, being Sunday, will make the effectivity of my resignation, as part of the
 last week.

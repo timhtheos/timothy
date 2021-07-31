@@ -17,6 +17,12 @@ Information in this page is outdated. Last update was made on {{ page.date | dat
 
 # {{ page.title }}
 
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 Drupal has been known for its multisite feature but it lacks detailed documentation on how to set-up and configure it.
 
 The following multi-site setup and configuration features the following:

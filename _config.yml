@@ -1,7 +1,8 @@
 title: timothyae.com
 description: Official website of Timothy Escopete
 baseurl: ""
-url: "https://timothyae.com"
+# url: "https://timothyae.com"
+url: ""
 
 permalink: pretty
 

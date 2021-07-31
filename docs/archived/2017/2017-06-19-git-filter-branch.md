@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: archive
 title: How to use git filter-branch to move a directory from one repository to the other including its history of commits
 date: 2017-06-19
 nav_order: 39
-parent: Archived
+parent: 2017
 permalink: article/git-filter-branch-to-move-directory-and-its-commits-across-repositories
 categories:
   - development
@@ -19,14 +19,19 @@ teaser: >
   the said directory from A to (that of) B.
 ---
 
-Information in this page is outdated. Last update was made on {{ page.date | date_to_long_string }}
-{: .label .label-red }
 
-# {{ page.title }}
+## Table of contents
+{: .no_toc .text-delta }
+1. TOC
+{:toc}
+
+<div class="ad-sidebar-right">
+  {% include ad_sq.html %}
+</div>
 
 ## Scenario
 
-### Let's assume the following:
+### Assumption
 
 1. Original repository: `A`.
 2. Other repository: `B`.
@@ -36,7 +41,7 @@ Information in this page is outdated. Last update was made on {{ page.date | dat
    git root directory
 5. Local path: `/var/www/demo/`.
 
-### Let's start supposing:
+### Case
 
 Suppose, you want to move a directory from a repository `A` to be merged into
 another repository `B`.  The noob approach would be just to copy the contents
@@ -59,11 +64,11 @@ in `A`.
 That can be solved, by setting up the env variable for git committer name,
 author name, and the date committed.  This however, would be very tedious.
 
-## Simple solution
+## Solution
 
 Let's use git's `filter-branch` command.
 
-## Steps
+### Steps
 
 1.  Clone `A`. Let's clone it in `/var/www/demo/`. Any path will do. I would
     suggest to clone a new one, than to use existing one where you currently
@@ -168,7 +173,9 @@ Let's use git's `filter-branch` command.
 
 That's it.
 
-## All commands
+## Summary
+
+Below are all commands used.
 
 ~~~
 # Go to the local path where we want to do stuff.
