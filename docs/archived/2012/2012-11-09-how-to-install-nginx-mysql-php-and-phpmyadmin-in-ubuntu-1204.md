@@ -24,7 +24,7 @@ Assuming that you have thoroughly updated your Ubuntu 12.04, let's begin directl
 
 ## Install Nginx
 
-### The command
+The command:
 
 ```
 sudo apt-get install nginx
@@ -36,7 +36,7 @@ sudo apt-get install nginx
 
 ## Install MySQL
 
-### The command
+The command:
 
 ``` 
 sudo apt-get install mysql-server mysql-client php5-mysql
@@ -48,7 +48,7 @@ sudo apt-get install mysql-server mysql-client php5-mysql
 
 ## Install PHP
 
-### The command
+The command:
 
 ```
 sudo apt-get install php5 php5-fpm php-apc
@@ -66,13 +66,13 @@ sudo apt-get install php5-cli
 
 ## Install phpmyadmin
 
-### Restart php5-fpm. 
+Restart php5-fpm. 
 
 ```
 sudo service php5-fpm restart
 ```
 
-### The command to install
+The command to install:
 
 ```
 sudo apt-get install phpmyadmin
@@ -83,13 +83,13 @@ sudo apt-get install phpmyadmin
 
 ## Configure Nginx and PHP
 
-### Start nginx
+Start nginx.
 
 ```
 sudo service nginx start
 ```
 
-### Open the default virtual host file.
+Open the default virtual host file.
 
 ```
 sudo nano /etc/nginx/sites-available/default
@@ -108,13 +108,13 @@ Apply the following changes:
 -  make sure you close the { in location ~ \.php$ { with } at the end right after include fastcgi_params;
  
 
-### Restart nginx
+Restart nginx.
 
 ```
 sudo service nginx restart
 ```
 
-### Check if `cgi.gix_pathinfo` is set to `0` in your `php.ini` file
+Check if `cgi.gix_pathinfo` is set to `0` in your `php.ini` file.
 
 If it is, then there is no need to change it; otherwise, if commented, uncomment it and set to `0`.
 
@@ -122,7 +122,7 @@ If it is, then there is no need to change it; otherwise, if commented, uncomment
 sudo nano /etc/php5/fpm/php.ini
 ```
 
-### Save and exit, and restart php-fpm
+Save and exit, and restart `php-fpm`.
 
 ```
 sudo service php5-fpm restart
@@ -143,21 +143,19 @@ In here, our root is in /var/www/html and we will be planning to put all vhosts 
 
 ## Create Virtual Host for phpmyadmin
 
-### Go to the configuration directory in the /sites-available/
+Go to the configuration directory in the `/sites-available/`.
 
 ```
 cd /etc/nginx/sites-available
 ```
 
-### Create a basic nginx vhost configuration file
+Create a basic nginx vhost configuration file.
 
 ```
 sudo nano phpmyadmin
 ```
 
-### Virtual Host configuration
-
-Paste the following:
+Create nxinx server block file by copy-pasting the following:
 
 ```
 server {
@@ -226,13 +224,13 @@ The 4th line, if you have noticed, that its root is set to the default's root to
 
 The point is that the default server_name (domain name) be the server's IP address (public IP address) and the phpmyadmin be a sub-domain of any domain vhosted in the same server.
 
-### Enable the virtual host phpmyadmin
+Enable the virtual host `phpmyadmin`.
 
 ```
 ln -s /etc/nginx/sites-available/phpmyadmin /etc/nginx/sites-enabled/phpmyadmin
 ```
 
-### Restart nginx
+Restart nginx.
 
 ```
 sudo service nginx restart
@@ -277,9 +275,9 @@ sudo service nginx restart
 
 Your LEMP stack + phpmyadmin are now setup and configured on your server.
  
-## Other optional install
+## Other optional install: PHP Curl
 
-### PHP Curl
+The command:
 
 ```
 sudo apt-get isntall php5-curl
