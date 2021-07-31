@@ -2,7 +2,7 @@
 layout: archive
 title:  New life's chapter
 date:   2017-06-18
-nav_order: 1993
+nav_order: -20170618
 parent: 2017
 categories:
   - Personal
