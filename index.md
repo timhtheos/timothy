@@ -4,7 +4,7 @@ title: Home
 nav_order: 1
 description: "Official website of Timothy Escopete."
 permalink: /
-no_comments: true
+#no_comments: true
 ---
 
 # timothyae.com
