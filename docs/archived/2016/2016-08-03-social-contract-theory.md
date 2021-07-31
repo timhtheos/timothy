@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: archive
 title: Social Contract Theory
 date: 2016-08-03
-nav_order: 64
-parent: Archived
+nav_order: -20160803
+parent: 2016
 permalink: post/social-contract-theory
 categories:
   - Personal
@@ -12,11 +12,6 @@ tags:
   - society
   - politics
 ---
-
-Information in this page is outdated. Last update was made on {{ page.date | date_to_long_string }}
-{: .label .label-red }
-
-# {{ page.title }}
 
 As much as I want to close my eyes on simple petty things, I just can't.  I am too sensitive to the smallest details.  I am governed by a lot of rules, latin legal maxims, among others.  Now, one of the things I keep my eyes closed, has to do with the social contract theory.  Let's dig dipper and define what it is.
 

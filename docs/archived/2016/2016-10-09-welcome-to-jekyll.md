@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: archive
 title:  "Welcome to Jekyll! Updated!"
 date:   2016-10-09
-nav_order: 63
-parent: Archived
+nav_order: -20161009
+parent: 2016
 categories:
   - development
 tags:
@@ -16,11 +16,6 @@ teaser: >
   finally decided, after serveral months of search, to move to Jekyll
   for my own website, just to save paid cloud servers, among others.
 ---
-
-Information in this page is outdated. Last update was made on {{ page.date | date_to_long_string }}
-{: .label .label-red }
-
-# {{ page.title }}
 
 After years of using Drupal 7.x on my personal website, from
 timothyae.com, to using a secure protocol, and to timothy.sh, I have

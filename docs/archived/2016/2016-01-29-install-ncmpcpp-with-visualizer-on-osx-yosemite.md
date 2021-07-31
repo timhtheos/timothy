@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: archive
 title: Install ncmpcpp with visualizer on OSX [Yosemite]
 date: 2016-01-29
-nav_order: 76
-parent: Archived
+nav_order: -20160129
+parent: 2016
 permalink: article/install-ncmpcpp-with-visualizer-on-osx-yosemite
 disqus:
   old: true
@@ -22,11 +22,6 @@ teaser: >
   lightweight.  Default installation on OSX can be easily done with
   `brew install ncmpcpp`.
 ---
-
-Information in this page is outdated. Last update was made on {{ page.date | date_to_long_string }}
-{: .label .label-red }
-
-# {{ page.title }}
 
 Ncmpcpp is an mpd client.  It is compatible with mopidy and its UI is very similar to ncmpc.  It's a TUI-based music player that is very lightweight.  Default installation on OSX can be easily done with homebrew.
 

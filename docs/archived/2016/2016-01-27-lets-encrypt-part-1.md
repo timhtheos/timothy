@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: archive
 title: Let's Encrypt - Part 1
 date: 2016-01-27 00:00:00
-nav_order: 80
-parent: Archived
+nav_order: -20160127
+parent: 2016
 permalink: article/lets-encrypt-part-1
 categories:
   - development
@@ -20,11 +20,6 @@ teaser: >
   Yesterday, I created SSL certificate for both timothyae.com and
   www.timothyae.com.
 ---
-
-Information in this page is outdated. Last update was made on {{ page.date | date_to_long_string }}
-{: .label .label-red }
-
-# {{ page.title }}
 
 I use Comodo's PositiveSSL for this website, timothyae.com.  However, after Let's Encrypt has been released and after I used it to 2 of my subdomains, I have finally decided to move to this open source SSL.
 

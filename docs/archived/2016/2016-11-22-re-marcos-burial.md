@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: archive
 title:  "Of Marcos burial, as a hero"
 date:   2016-11-22
-nav_order: 59
-parent: Archived
+nav_order: -20161122
+parent: 2016
 permalink: jurisprudence/re-marcos-burial
 teaser: >
   The judicial power that the Court wields is symbolized by a
@@ -21,11 +21,6 @@ tags:
   - jurisprudence
   - law
 ---
-
-Information in this page is outdated. Last update was made on {{ page.date | date_to_long_string }}
-{: .label .label-red }
-
-# {{ page.title }}
 
 ### Case Title(s)
 

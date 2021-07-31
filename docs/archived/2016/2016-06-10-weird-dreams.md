@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: archive
 title: Weird dreams
 date: 2016-06-10
-nav_order: 68
-parent: Archived
+nav_order: -20160610
+parent: 2016
 permalink: post/weird-dreams
 categories:
   - Personal
@@ -11,11 +11,6 @@ tags:
   - dreams
   - sanctification
 ---
-
-Information in this page is outdated. Last update was made on {{ page.date | date_to_long_string }}
-{: .label .label-red }
-
-# {{ page.title }}
 
 I had two series of weird dreams for two consecutive days.
 

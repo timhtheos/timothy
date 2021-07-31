@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: archive
 title: User Acceptance Criteria (UAC), ...Testing (UAT)
 date: 2016-02-02 02
-nav_order: 73
-parent: Archived
+nav_order: -20160202
+parent: 2016
 permalink: article/user-acceptance-criteria-uac-testing-uat
 categories:
   - development
@@ -22,11 +22,6 @@ teaser: >
   you estimate/cost a project, and ensure it delivers the right set of
   functionality back to the customer."
 ---
-
-Information in this page is outdated. Last update was made on {{ page.date | date_to_long_string }}
-{: .label .label-red }
-
-# {{ page.title }}
 
 **Note:**  This article is not mine.  All rights reserved to the owner.
 **Source:**  (*Agile Sprint Ltd*)  http://agilesprint.blogspot.com/2010/11/user-acceptance-criteria-and-uat.html

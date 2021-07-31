@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: archive
 title:  "Maximum level of stupidity"
 date:   2016-11-15
-nav_order: 60
-parent: Archived
+nav_order: -20161115
+parent: 2016
 categories:
   - Personal
 tags:
@@ -12,11 +12,6 @@ tags:
   - theology
 permalink: article/maximum-level-of-stupidity
 ---
-
-Information in this page is outdated. Last update was made on {{ page.date | date_to_long_string }}
-{: .label .label-red }
-
-# {{ page.title }}
 
 I had a drink of wine with this not-so-fine and not-so-young lady in one
 of the bars here in Cebu. We started with some exchange of information,

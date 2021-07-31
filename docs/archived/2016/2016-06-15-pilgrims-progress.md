@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: archive
 title: Pilgrims Progress
 date: 2016-06-15
-nav_order: 66
-parent: Archived
+nav_order: -20160615
+parent: 2016
 permalink: post/pilgrims-progress
 categories:
   - Personal
@@ -12,11 +12,6 @@ tags:
   - sanctification
   - routine
 ---
-
-Information in this page is outdated. Last update was made on {{ page.date | date_to_long_string }}
-{: .label .label-red }
-
-# {{ page.title }}
 
 My Cebu life has been a routine after I decided it to be.
 

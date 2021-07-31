@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: archive
 title: Of Manny Pacquiao, homosexuality, same sex marriage, and being worst than animals
 date: 2016-02-18
 permalink: post/of-manny-pacquiao-homosexuality-same-sex-marriage-and-being-worst-than-animals
-nav_order: 70
-parent: Archived
+nav_order: -20160218
+parent: 2016
 teaser: >
   My personal thoughts of the Manny Pacquia trending comment "worst than
   animals" to homosexuals and same sex marriage.
@@ -17,11 +17,6 @@ tags:
   - same sex marriage
   - animals
 ---
-
-Information in this page is outdated. Last update was made on {{ page.date | date_to_long_string }}
-{: .label .label-red }
-
-# {{ page.title }}
 
 ## Of Manny Pacquiao...
 

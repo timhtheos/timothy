@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: archive
 title:  "Install RVM (Ruby Version manager) in Ubuntu 14.04"
 date:   2016-12-09
-nav_order: 57
-parent: Archived
+nav_order: -20161209
+parent: 2016
 categories:
   - development
 tags:

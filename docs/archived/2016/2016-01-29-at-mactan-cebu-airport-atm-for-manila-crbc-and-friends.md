@@ -1,9 +1,9 @@
 ---
-layout: default
+layout: archive
 title: At Mactan-Cebu Airport ATM for Manila, CRBC, and friends
 date: 2016-01-29 02
-nav_order: 77
-parent: Archived
+nav_order: -20160129
+parent: 2016
 permalink: post/at-mactan-cebu-airport-atm-for-manila-crbc-and-friends
 categories:
   - Personal
@@ -16,11 +16,6 @@ teaser: >
   Today, I am here again, bound to Manila to spend the whole week there,
   maybe, and may be extended to even few more days there.
 ---
-
-Information in this page is outdated. Last update was made on {{ page.date | date_to_long_string }}
-{: .label .label-red }
-
-# {{ page.title }}
 
 Last week, I was here, bound to Manila.  I spent my weekend there.  Today, I am here again, bound to Manila to spend the whole week there, maybe, and may be extended to even few more days there.
 

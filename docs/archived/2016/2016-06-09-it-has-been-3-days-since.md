@@ -1,20 +1,15 @@
 ---
-layout: post
+layout: archive
 title: It has been 3 days since
 date: 2016-06-09
-nav_order: 69
-parent: Archived
+nav_order: -20160609
+parent: 2016
 permalink: post/it-has-been-3-days-since
 categories:
   - Personal
 tags:
   - sanctification
 ---
-
-Information in this page is outdated. Last update was made on {{ page.date | date_to_long_string }}
-{: .label .label-red }
-
-# {{ page.title }}
 
 So to keep me from becoming conceited, a thorn was given me in the flesh, a messenger of Satan to harass me, to keep me from becoming conceited.
 

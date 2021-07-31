@@ -1,18 +1,13 @@
 ---
-layout: post
+layout: archive
 title: My name is Tim
 date: 2016-06-15 01
-nav_order: 67
-parent: Archived
+nav_order: -20160615
+parent: 2016
 permalink: post/my-name-is-tim
 categories:
   - Personal
 ---
-
-Information in this page is outdated. Last update was made on {{ page.date | date_to_long_string }}
-{: .label .label-red }
-
-# {{ page.title }}
 
 I just had my lunch, and after it, I went to the second floor and bought a fresh boku juice from Fruitful.  They asked my name and I said "Tim".  They, all the times, do this, to write the name on the cup.  They wrote "Dim".  I was angry, but just told them to consume the product because it belongs to Dim, not Tim.
 

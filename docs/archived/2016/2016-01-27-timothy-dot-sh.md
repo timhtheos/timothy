@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: archive
 title: I purchased timothy.sh
 date: 2016-01-27 02:00:00
-nav_order: 79
-parent: Archived
+nav_order: -20160126
+parent: 2016
 permalink: article/goodbye-timothyaecom-not-yet
 categories:
   - development
@@ -18,11 +18,6 @@ teaser: >
   registered timothy.sh, and configured its DNS to point to my existing
   Digital Ocean droplet server instance.
 ---
-
-Information in this page is outdated. Last update was made on {{ page.date | date_to_long_string }}
-{: .label .label-red }
-
-# {{ page.title }}
 
 I learned yesterday that there is a TLD that is (dot) sh. I had thoughts of changing my old domain name `timothyae.com` that was registered in 2008, to a much shorter domain name, `timothy.sh`.
 

@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: archive
 title:  Playing with FreeBSD
 date:   2016-10-31
-nav_order: 61
-parent: Archived
+nav_order: -20161031
+parent: 2016
 categories:
   - development
 tags:
@@ -14,11 +14,6 @@ permalink: article/playing-with-freebsd
 teaser: >
   Can't help myself but play.
 ---
-
-Information in this page is outdated. Last update was made on {{ page.date | date_to_long_string }}
-{: .label .label-red }
-
-# {{ page.title }}
 
 After bla bla bla, I downloaded FreeBSD in a virtual machine format.
 
