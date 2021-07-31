@@ -30,7 +30,7 @@ Assuming that you have thoroughly updated your Ubuntu 12.04, let's begin directl
 sudo apt-get install nginx
 ```
 
-### Notes
+**Notes**
 : The default root directory of nginx for public html is found in `/usr/share/nginx/www/`.
 : The nginx service does not start on its own, by default.
 
@@ -42,7 +42,7 @@ sudo apt-get install nginx
 sudo apt-get install mysql-server mysql-client php5-mysql
 ```
 
-### Notes
+**Notes**
 : If the server is a live server, it is recommended to set the root password.
 : In cases like you missed this chance, you can do so later in mysql shell.
 
@@ -60,7 +60,7 @@ If you wish to run Drupal and use Drush, install `php5-cli`.
 sudo apt-get install php5-cli
 ```
 
-### Notes
+**Notes**
 : `php-apc` is optional but is required for phpmyadmin installation.
 : `php5-fpm` is our FastCGI daemon.
 
@@ -78,7 +78,7 @@ sudo service php5-fpm restart
 sudo apt-get install phpmyadmin
 ```
 
-### Important
+**Important**
 : It will ask for webserver to reconfigure automatically, select `None`; and configure database for phpmyadmin with `dbconfig-common`, select `No`.
 
 ## Configure Nginx and PHP
