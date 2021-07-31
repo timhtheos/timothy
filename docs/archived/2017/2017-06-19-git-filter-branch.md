@@ -19,15 +19,10 @@ teaser: >
   the said directory from A to (that of) B.
 ---
 
-
 ## Table of contents
 {: .no_toc .text-delta }
 1. TOC
 {:toc}
-
-<div class="ad-sidebar-right">
-  {% include ad_sq.html %}
-</div>
 
 ## Scenario
 
