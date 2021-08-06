@@ -4,6 +4,9 @@ title: Resolutions
 permalink: resolutions
 nav_order: 5
 no_comments: true
+date: 2017-03-17
+nav_order: -20170317
+parent: 2017
 ---
 
 > My resolutions shalt fail if not by Thy grace and mercy.  Should I then retract from making commitments to myself and before the Lord?  Perish that thought.  I shalt go on to maturity and perfection, and by perfection, I do not mean moral sinlessness, but rather making Thee the chief and the highest end of myself and everything.  I am resolved, to remind myself always, that Thy judgement and discipline begin in the Thine house.  Lord, give what Thou commandest, and command what Thou wilt.

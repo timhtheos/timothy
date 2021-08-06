@@ -4,6 +4,9 @@ title: Whoami
 permalink: whoami
 nav_order: 4
 no_comments: true
+date: 2012-11-28
+parent: 2012
+nav_order: -20121128
 ---
 
 {% include toc.html %}

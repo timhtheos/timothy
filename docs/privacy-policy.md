@@ -4,6 +4,8 @@ title: Privacy Policy
 permalink: privacy
 nav_order: 7
 date: 2017-12-03
+nav_order: -20171203
+parent: 2017
 no_comments: true
 ---
 
