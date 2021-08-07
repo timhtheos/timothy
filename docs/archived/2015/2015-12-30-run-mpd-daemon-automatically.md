@@ -17,8 +17,7 @@ teaser: >
   your shell rc file, but did not realise that it will run mpd each time
   a terminal is being opened, e.g., in new tab or window, thus resulting
   in `Address already in use` prompt, which may, if not, all the time,
-  annoying.  Here, I have come up with this simple snippet to run mpd
-  daemon only if it is not yet running.
+  annoying.
 disqus:
   path: article/run-mpd-daemon-automatically
 sticky: true
