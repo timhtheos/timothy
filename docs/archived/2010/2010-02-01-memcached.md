@@ -13,15 +13,7 @@ tags:
 permalink: article/memcached
 sticky: true
 teaser: >
-  Memcache is free & open source, high-performance, distributed memory
-  object caching system, generic in nature, but intended for use in
-  speeding up dynamic web applications by alleviating database load.  It
-  is an in-memory key-value store for small chunks of arbitrary data
-  (strings, objects) from results of database calls, API calls, or page
-  rendering.  It is simple, yet powerful. Its simple design promotes
-  quick deployment, ease of development, and solves many problems facing
-  large data caches. Its API is available for most popular languages.  -
-  memcached.org
+  Setup, configure memcached in Ubuntu 11.10 and use with Drupal 6 and 7.
 ---
 
 {% include toc.html %}

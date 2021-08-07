@@ -10,6 +10,8 @@ tags:
   - ubuntu
 permalink: article/mysql-database-backup-and-restore
 sticky: true
+teaser: >
+  Backup and restore MySQL databases using terminal in linux.
 ---
 
 {% include toc.html %}

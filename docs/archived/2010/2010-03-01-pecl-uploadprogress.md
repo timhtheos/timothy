@@ -12,6 +12,8 @@ tags:
   - drupal
   - ubuntu
 sticky: true
+teaser: >
+  Setup, configure plupload using pecl uploadprogress in ubuntu 11.10 and Drupal 7.
 ---
 
 {% include toc.html %}
