@@ -9,6 +9,11 @@ permalink: theme-refresh
 categories:
   - development
 sticky: true
+teaser: >
+  I tried coming up with my own design and theme in the past, and all,
+  but I quickly lost appetite with the looks of what I'm converting from
+  design into theme code. So everything ends up unfinished. I did it
+  several times. I gave up several times too.
 ---
 
 Welcome to my personal, but public, website. This domain name was registered in 2008. In 2017, I registered another TLD and planned to move completely to it while slowly deprecating this domain name; but here comes 2021,
