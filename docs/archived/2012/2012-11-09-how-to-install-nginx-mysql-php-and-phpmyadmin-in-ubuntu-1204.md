@@ -14,6 +14,9 @@ tags:
   - php
   - phpmyadmin
 permalink: article/how-to-install-nginx-mysql-php-and-phpmyadmin-in-ubuntu-1204
+sticky: true
+teaser: >
+  This tutorial is a personal knowledge based on compilation of several tutorials on the web that worked for me on how to install LEMP and PHPMyAdmin in Ubuntu 12.04. LEMP stands for Linux, Nginx, MySQL and PHP.
 ---
 
 {% include toc.html %}
