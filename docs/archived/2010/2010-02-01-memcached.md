@@ -11,6 +11,7 @@ tags:
   - ubuntu
   - memcached
 permalink: article/memcached
+sticky: true
 teaser: >
   Memcache is free & open source, high-performance, distributed memory
   object caching system, generic in nature, but intended for use in

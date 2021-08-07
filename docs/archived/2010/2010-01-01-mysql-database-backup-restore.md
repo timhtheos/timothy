@@ -9,6 +9,7 @@ categories:
 tags:
   - ubuntu
 permalink: article/mysql-database-backup-and-restore
+sticky: true
 ---
 
 {% include toc.html %}
