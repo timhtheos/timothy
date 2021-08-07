@@ -7,50 +7,6 @@ layout: default
 
 <h1>Archive :: {{ page.title }}</h1>
 
-<style>
-.ad-sidebar-left {
-  float: right;
-  width: 50%;
-  margin-left: 2%;
-  margin-bottom: 2%;
-}
-
-.ad-sidebar-left + h2 {
-  float: left;
-  width: 48%;
-}
-
-.ad-sidebar-left + #markdown-toc {
-  float: left;
-  width: auto;
-  width: 48%;
-  clear: left;
-} 
-
-.ad-sidebar-left + h2 + #markdown-toc {
-  float: left;
-  width: auto;
-  width: 48%;
-  clear: left;
-}
-
-.ad-sidebar-left + #markdown-toc + * {
-  clear: both;
-}
-
-.ad-sidebar-left + h2 + #markdown-toc + * {
-  clear: both;
-}
-
-.ad-sidebar-left + hr + h2 + #markdown-toc a {
-  white-space: normal;
-}
-
-.ad-sidebar-left + hr + h2 + ul a {
-  white-space: normal;
-}
-</style>
-
 <div class="ad-sidebar-left">
   {% include ad_sq.html %}
 </div>
