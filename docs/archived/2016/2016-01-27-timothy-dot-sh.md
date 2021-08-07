@@ -10,6 +10,7 @@ categories:
 tags:
   - domain
   - (dot) sh
+sticky: true
 teaser: >
   After learning yesterday that there exists a (dot) sh domain name, I
   had second thoughts of changing my old and existing domain name,

@@ -10,6 +10,7 @@ tags:
   - jekyll
   - update
 permalink: welcome-to-jekyll
+sticky: true
 teaser: >
   After years of using Drupal 7.x on my personal website, from
   timothyae.com, to using a secure protocol, and to timothy.sh, I have

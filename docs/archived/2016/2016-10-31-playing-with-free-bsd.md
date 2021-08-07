@@ -11,6 +11,7 @@ tags:
   - bsd
   - free bsd
 permalink: article/playing-with-freebsd
+sticky: true
 teaser: >
   Can't help myself but play.
 ---

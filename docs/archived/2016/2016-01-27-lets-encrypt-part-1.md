@@ -13,6 +13,7 @@ tags:
   - let's encrypt
   - comodo
   - positive ssl
+sticky: true
 teaser: >
   I use Comodo's PositiveSSL for this website, timothyae.com.  However,
   after Let's Encrypt has been released and after I used it to 2 of my

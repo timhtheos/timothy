@@ -16,6 +16,7 @@ tags:
   - visualizer
   - osx
   - yosemite
+sticky: true
 teaser: >
   Ncmpcpp is an mpd client.  It is compatible with mopidy and its UI is
   very similar to ncmpc.  It's a TUI-based music player that is very

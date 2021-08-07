@@ -11,6 +11,11 @@ tags:
   - ubuntu
   - ruby version manager
 permalink: article/install-rvm-ruby-version-manager-in-ubuntu-14.04
+sticky: true
+teaser: >
+  Ruby Version Manager (RVM) is a tool that managers Ruby application
+  environments and enables switching between them. This is more of a
+  personal note, as I always end up re-searching about this.
 ---
 
 Ruby Version Manager (RVM) is a tool that managers Ruby application

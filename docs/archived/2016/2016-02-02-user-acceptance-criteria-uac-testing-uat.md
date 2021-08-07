@@ -11,16 +11,14 @@ tags:
   - agile
   - users acceptance criteria (uac)
   - users acceptance testing (uat)
+sticky: true
 teaser: >
   "The goal of user acceptance criteria is to compile a set of statements
   that accurately identify what your customer does/does not want when
   commissioning your project. Establishing user acceptance criteria is an
   essential technique aimed at preventing project teams going of on a
   tangent and building something that your customer doesn't actually
-  want. Once done the end of the process, your team should have absolute
-  clarity on what your customer does/does not want, and this will help
-  you estimate/cost a project, and ensure it delivers the right set of
-  functionality back to the customer."
+  want."
 ---
 
 **Note:**  This article is not mine.  All rights reserved to the owner.

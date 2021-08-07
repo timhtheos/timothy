@@ -13,6 +13,7 @@ tags:
   - let's encrypt
   - comodo
   - positive ssl
+sticky: true
 teaser: >
   Due to the fact that I purchased timothy.sh just today and I moved to
   Let's Encrypt yesterday, I also have issued certificates to both
