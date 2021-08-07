@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Home
+title: Technology
 nav_order: 1
 description: "Official website of Timothy Escopete."
 permalink: /
 #no_comments: true
 ---
 
-<h1>timothyae.com</h1>
+<h1>Technology</h1>
 
 {%- assign pages_array = '' | split: '' -%}
 {%- assign pages_array = pages_array | push: site.html_pages -%}
