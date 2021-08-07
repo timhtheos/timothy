@@ -4,11 +4,14 @@ title: How to setup Virtual Host in Ubuntu 11.10 via terminal or Putty
 date:   2011-10-13
 nav_order: -20111013
 parent: 2011
+sticky: true
 categories:
   - development
 tags:
   - ubuntu
 permalink: article/ow-to-setup-virtual-host-in-ubuntu-1110-via-terminal-or-putty
+teaser: >
+  This article is a personal recollection of what I did when I installed a virtual host in my remote instance server running Ubuntu 11.10.
 ---
 
 {% include toc.html %}

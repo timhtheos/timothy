@@ -4,12 +4,15 @@ title: Drupal 7.x multi-site set-up and configuration
 date:   2011-02-01
 nav_order: -20110201
 parent: 2011
+sticky: true
 categories:
   - development
 tags:
   - ubuntu
   - drupal
 permalink: article/drupal-7x-multi-site-set-up-and-configuration
+teaser: >
+  A multi-site with a domain name for each site; A multi-site with one shared core files, modules and themes; and A multi-site with separate databases for each site but with an option to share common users, sessions and user roles.  
 ---
 
 {% include toc.html %}
