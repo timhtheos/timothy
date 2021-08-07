@@ -1,8 +1,8 @@
 #!/bin/sh
 
 echo "Packaging gem... \n"
-gem build just-the-docs.gemspec
+gem build timothy.gemspec
 
 echo "Cleaning up... \n"
 git add *.gem
-git commit -m 'Bump just-the-docs gem package'
+git commit -m 'Bump timothy gem package'
