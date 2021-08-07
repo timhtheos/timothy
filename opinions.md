@@ -1,0 +1,26 @@
+---
+layout: default
+title: Opinions
+nav_order: 2
+permalink: /opinions
+no_comments: true
+---
+
+<h1>Opinions</h1>
+
+{%- assign pages_array = '' | split: '' -%}
+{%- assign pages_array = pages_array | push: site.html_pages -%}
+
+{%- for pages in pages_array -%}
+  {%- for page in pages reversed -%}
+    {% if page.layout == "archive" and page.sticky != true %} 
+
+----
+<h4 class="date label">{{ page.date | date: "%Y-%m-%d" }}</h4>
+<h3 class="break-link"><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
+<p class="teaser">{{ page.teaser }}</p>
+
+    {% endif %}
+
+  {%- endfor -%}
+{%- endfor -%}
