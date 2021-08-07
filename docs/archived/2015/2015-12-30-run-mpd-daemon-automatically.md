@@ -11,7 +11,7 @@ tags:
   - mpd
   - ncmpcpp
 teaser: >
-  In article [Install mpd + ncmpcpp on OSX Yosemite](/article/install-mpd-ncmpcpp-on-osx-yosemite),
+  In article `Install mpd + ncmpcpp on OSX Yosemite`,
   many asked how to run mpd automatically.  This isn't an issue at first,
   because I run mpd manually.  I first suggested to include `mpd` into
   your shell rc file, but did not realise that it will run mpd each time
@@ -21,6 +21,8 @@ teaser: >
   daemon only if it is not yet running.
 disqus:
   path: article/run-mpd-daemon-automatically
+sticky: true
+
 ---
 
 {% include toc.html %}

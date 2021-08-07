@@ -21,6 +21,9 @@ tags:
   - nginx
   - apache
   - vagrant
+sticky: true
+teaser: >
+  The tools listed here are the tools I personally use for development, and other matters. I have arranged them in categories, as well as provided information (when I can) as to when I started using them.
 ---
 
 {% include toc.html %}

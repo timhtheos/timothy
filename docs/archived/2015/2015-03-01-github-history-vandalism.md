@@ -11,6 +11,9 @@ tags:
   - git
   - github
   - bash
+sticky: true
+teaser: >
+  A former colleague introduced me to gelstudios’ gitfiti. It’s a tool to decorate your github account’s commit history calendar by (blatantly) abusing git’s ability to accept commits in the past.
 ---
 
 {% include toc.html %}
