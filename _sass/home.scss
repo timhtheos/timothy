@@ -1,0 +1,24 @@
+h3.break-link a {
+  white-space: normal;
+}
+
+h4.year.label {
+  margin: 2px 5px 0 0;
+  border-radius: 0;
+  float: left;
+}
+
+h4.year.label + hr {
+  display: none;
+}
+
+h4.date.label {
+  margin: 2px 5px 0 0;
+  float: left;
+  border-radius: 0;
+}
+
+p.teaser {
+  font-size: 16px;
+  line-height: 20px;
+}
