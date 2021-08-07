@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Jekyll theme refresh
+title: Theme refresh
 date:   2021-07-30
 # nav_order: -20210730
 # parent: 2021
 nav_order: 3
-permalink: jekyll-theme-refresh
+permalink: theme-refresh
 categories:
   - development
 sticky: true
