@@ -8,6 +8,7 @@ no_comments: true
 
 <h1>Opinions</h1>
 
+{%- assign i = 0 -%}
 {%- assign pages_array = '' | split: '' -%}
 {%- assign pages_array = pages_array | push: site.html_pages -%}
 
@@ -19,6 +20,13 @@ no_comments: true
 <h4 class="date label">{{ page.date | date: "%Y-%m-%d" }}</h4>
 <h3 class="break-link"><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
 <p class="teaser">{{ page.teaser }}</p>
+
+{% assign i = i | plus:1 %}
+
+{%- if i == 4 -%}
+  {% include ad_sq.html %}
+  {% assign i = 0 %}
+{%- endif -%}
 
     {% endif %}
 
