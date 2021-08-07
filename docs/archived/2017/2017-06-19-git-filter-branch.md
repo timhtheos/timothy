@@ -13,6 +13,7 @@ tags:
 disqus:
   old: true
   path: git-filter-branch
+sticky: true
 teaser: >
   Suppose, you want to move a directory from a repository A to be merged into
   another repository B. The noob approach would be just to copy the contents of

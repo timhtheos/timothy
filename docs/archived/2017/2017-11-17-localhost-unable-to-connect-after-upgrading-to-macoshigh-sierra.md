@@ -7,6 +7,11 @@ parent: 2017
 categories:
   - development
 permalink: entry/2017-11-17/localhost-unable-to-connect-after-upgrading-to-macos-high-sierra
+sticky: true
+teaser: >
+  I was notified to upgrade from maxOS Sierra to macOS High Sierra
+  earlier and I thought for few seconds and hit install button. I waited
+  for almost an hour for it to finish the OS upgrade.
 ---
 
 I was notified to upgrade from maxOS Sierra to macOS High Sierra earlier and I
