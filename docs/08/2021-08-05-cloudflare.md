@@ -5,7 +5,7 @@ date:   2021-08-05
 nav_order: -20210805
 # parent: August
 # grand_parent: 2021
-permalink: dns-management-with-cloudflare-etc
+permalink: /2021/08/dns-management-with-cloudflare-etc
 categories:
   - devops
 sticky: true
