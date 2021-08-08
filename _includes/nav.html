@@ -74,7 +74,18 @@
               {%- if child.has_children -%}
                 <a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
               {%- endif -%}
-              <a href="{{ child.url | absolute_url }}" class="nav-list-link{% if page.url == child.url %} active{% endif %}">{{ child.title }}</a>
+
+              {%- comment -%}
+                Display child items only if such child item has no grand_parent
+                set. E.g. case, when an item parent is July but grand parent is
+                2015, but the item is displayed in both 2015 > July and the
+                current year's July (where that has no parent set for current
+                year).
+              {%- endcomment -%}
+              {%- unless child.grand_parent -%}
+                <a href="{{ child.url | absolute_url }}" class="nav-list-link{% if page.url == child.url %} active{% endif %}">{{ child.title }}</a>
+              {%- endunless -%}
+
               {%- if child.has_children -%}
                 {%- assign grand_children_list = pages_list | where: "parent", child.title | where: "grand_parent", node.title -%}
                 <ul class="nav-list">
