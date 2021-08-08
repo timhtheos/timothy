@@ -5,6 +5,7 @@ nav_order: 2
 permalink: /non-tech
 no_comments: true
 nav_order: -99999998
+nav_exclude: true
 ---
 
 <h1>Non-tech</h1>
