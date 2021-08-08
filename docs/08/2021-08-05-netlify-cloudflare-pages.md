@@ -10,7 +10,11 @@ categories:
   - devops
 sticky: true
 teaser: >
-  Since I moved to Jekyll in 2017, I host my site for free with Netlify.
+  I host my site for free with Netlify, since I moved to Jekyll in 2017.
+  Cloudflare may not be needed with Netlify's static HTML pages, if not
+  for the DNS management and other features I wanted. However, having to
+  host static HTML pages in one `Cloudflare` with its features, outweigh
+  its downside.
 ---
 
 {% include toc.html %}
@@ -150,4 +154,5 @@ However, one can always setup cloudflare with Netlify.
 
 But then again, I switched to Cloudflare pages, and using Cloudflare
 pages with Cloudflare itself, despite slow build time, is so far
-tolerably cooler.
+tolerably cooler. The features Cloudflare and Cloudflare pages have
+outweigh Cloudflare pages downside.
