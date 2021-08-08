@@ -2,9 +2,9 @@
 layout: post
 title: Theme refresh
 date:   2021-07-30
-# nav_order: -20210730
-# parent: 2021
-nav_order: 3
+nav_order: -20210730
+parent: July
+# grand_parent: 2021
 permalink: theme-refresh
 categories:
   - development
