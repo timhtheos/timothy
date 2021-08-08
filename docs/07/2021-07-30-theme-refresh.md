@@ -5,7 +5,7 @@ date:   2021-07-30
 nav_order: -20210730
 parent: July
 # grand_parent: 2021
-permalink: theme-refresh
+permalink: /2021/07/theme-refresh
 categories:
   - development
 sticky: true
