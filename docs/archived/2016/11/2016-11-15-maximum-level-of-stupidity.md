@@ -3,7 +3,8 @@ layout: archive
 title:  "Maximum level of stupidity"
 date:   2016-11-15
 nav_order: -20161115
-parent: 2016
+parent: November
+grand_parent: 2016
 categories:
   - Personal
 tags:

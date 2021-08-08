@@ -3,7 +3,8 @@ layout: archive
 title:  Playing with FreeBSD
 date:   2016-10-31
 nav_order: -20161031
-parent: 2016
+parent: October
+grand_parent: 2016
 categories:
   - development
 tags:

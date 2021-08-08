@@ -3,7 +3,8 @@ layout: archive
 title:  "Welcome to Jekyll! Updated!"
 date:   2016-10-09
 nav_order: -20161009
-parent: 2016
+parent: October
+grand_parent: 2016
 categories:
   - development
 tags:

@@ -3,7 +3,8 @@ layout: archive
 title:  "Create nginx proxy pass"
 date:   2016-12-08
 nav_order: -20161208
-parent: 2016
+parent: December
+grand_parent: 2016
 categories:
   - development
 tags:

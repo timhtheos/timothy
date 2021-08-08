@@ -3,7 +3,8 @@ layout: archive
 title: Social Contract Theory
 date: 2016-08-03
 nav_order: -20160803
-parent: 2016
+parent: August
+grand_parent: 2016
 permalink: post/social-contract-theory
 categories:
   - Personal
