@@ -3,7 +3,8 @@ layout: archive
 title: I purchased timothy.sh
 date: 2016-01-27 02:00:00
 nav_order: -20160126
-parent: 2016
+parent: January
+grand_parent: 2016
 permalink: article/goodbye-timothyaecom-not-yet
 categories:
   - development

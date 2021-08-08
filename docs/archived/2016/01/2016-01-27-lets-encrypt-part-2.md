@@ -3,7 +3,8 @@ layout: archive
 title: Let's Encrypt - Part 2
 date: 2016-01-27 03:00:00
 nav_order: -20160127
-parent: 2016
+parent: January
+grand_parent: 2016
 permalink: article/lets-encrypt-part-2
 categories:
   - development

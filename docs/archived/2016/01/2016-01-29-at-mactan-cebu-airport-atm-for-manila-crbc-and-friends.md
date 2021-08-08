@@ -3,7 +3,8 @@ layout: archive
 title: At Mactan-Cebu Airport ATM for Manila, CRBC, and friends
 date: 2016-01-29 02
 nav_order: -20160129
-parent: 2016
+parent: January
+grand_parent: 2016
 permalink: post/at-mactan-cebu-airport-atm-for-manila-crbc-and-friends
 categories:
   - Personal

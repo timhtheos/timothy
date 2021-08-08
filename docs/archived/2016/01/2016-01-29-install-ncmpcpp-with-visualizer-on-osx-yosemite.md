@@ -3,7 +3,8 @@ layout: archive
 title: Install ncmpcpp with visualizer on OSX [Yosemite]
 date: 2016-01-29
 nav_order: -20160129
-parent: 2016
+parent: January
+grand_parent: 2016
 permalink: article/install-ncmpcpp-with-visualizer-on-osx-yosemite
 disqus:
   old: true
