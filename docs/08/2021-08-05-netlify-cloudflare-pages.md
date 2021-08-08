@@ -77,6 +77,8 @@ password.
 8. In the next page `Create a project from your GitHub repository`,
 select a repository, and click `Begin setup`.
 
+{% include ad_header.html %}
+
 ## Setup builds and deployments
 
 After creating project in Cloudflare pages, you will be asked to setup

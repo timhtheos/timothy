@@ -67,6 +67,8 @@ molly.ns.cloudflare.com
 All of my DNS entries are proxied by cloudflare, meaning, real IP addresses
 aren't exposed, with exceptions to `MX` entries.
 
+{% include ad_header.html %}
+
 ## DNSSEC
 
 I enabled DNSSEC protection on my domain name. This protects against forged
