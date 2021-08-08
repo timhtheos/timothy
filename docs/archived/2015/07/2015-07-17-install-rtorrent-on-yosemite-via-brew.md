@@ -3,7 +3,8 @@ layout: archive
 title: Install rtorrent on Yosemite via brew
 date: 2015-07-17
 nav_order: -20150717
-parent: 2015
+parent: July
+grand_parent: 2015
 permalink: article/install-rtorrent-on-yosemite-via-brew
 categories:
   - development

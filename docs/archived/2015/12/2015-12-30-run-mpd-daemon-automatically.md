@@ -3,7 +3,8 @@ layout: archive
 title: Run mpd daemon automatically
 date: 2015-12-30
 nav_order: -2015-12-30
-parent: 2015
+parent: December
+grand_parent: 2015
 permalink: article/run-mpd-daemon-automatically
 categories:
   - development

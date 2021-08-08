@@ -3,7 +3,8 @@ layout: archive
 title: Github History Vandalism
 date: 2015-03-01
 nav_order: -20150301
-parent: 2015
+parent: March
+grand_parent: 2015
 permalink: article/github-history-vandalism
 categories:
   - development

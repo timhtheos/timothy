@@ -3,7 +3,8 @@ layout: archive
 title: How to remove invalid entries in vagrant global-status
 date: 2015-05-06
 nav_order: -20150506
-parent: 2015
+parent: May
+grand_parent: 2015
 permalink: article/how-to-remove-invalid-entries-in-vagrant-global-status
 categories:
   - development

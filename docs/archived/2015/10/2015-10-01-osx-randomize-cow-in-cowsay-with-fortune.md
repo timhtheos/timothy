@@ -3,7 +3,8 @@ layout: archive
 title: "OSX: Randomize cow in Cowsay with Fortune"
 date: 2015-10-01
 nav_order: -2015-10-01
-parent: 2015
+parent: October
+grand_parent: 2015
 permalink: article/osx-randomize-cow-in-cowsay-with-fortune
 categories:
   - development

@@ -12,7 +12,8 @@ teaser: >
 date: 2015-12-25
 nav_order: -20151225
 no_comments: true
-parent: 2015
+parent: December
+grand_parent: 2015
 ---
 
 {% include toc.html %}

@@ -3,7 +3,8 @@ layout: archive
 title: Tools
 date:   2015-01-01
 nav_order: -20150101
-# parent: 2015
+parent: January
+grand_parent: 2015
 permalink: tools-i-use
 categories:
   - development
