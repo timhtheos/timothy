@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tech
-nav_order: 1
+nav_order: -99999999
 description: "Official website of Timothy Escopete."
 permalink: /
 #no_comments: true

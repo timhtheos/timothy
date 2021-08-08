@@ -4,6 +4,7 @@ title: Opinions
 nav_order: 2
 permalink: /opinions
 no_comments: true
+nav_order: -99999998
 ---
 
 <h1>Opinions</h1>
