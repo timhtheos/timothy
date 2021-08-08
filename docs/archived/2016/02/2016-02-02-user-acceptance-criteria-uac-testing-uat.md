@@ -3,7 +3,8 @@ layout: archive
 title: User Acceptance Criteria (UAC), ...Testing (UAT)
 date: 2016-02-02 02
 nav_order: -20160202
-parent: 2016
+parent: February
+grand_parent: 2016
 permalink: article/user-acceptance-criteria-uac-testing-uat
 categories:
   - development
