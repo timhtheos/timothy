@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Opinions
+title: Non-tech
 nav_order: 2
-permalink: /opinions
+permalink: /non-tech
 no_comments: true
 nav_order: -99999998
 ---
 
-<h1>Opinions</h1>
+<h1>Non-tech</h1>
 
 {%- assign i = 0 -%}
 {%- assign pages_array = '' | split: '' -%}

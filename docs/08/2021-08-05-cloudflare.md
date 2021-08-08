@@ -10,9 +10,9 @@ categories:
   - devops
 sticky: true
 teaser: >
-  I had DNS management managed by my domain registrar for more than a
-  decade. Having been exposed to cloudflare for years, I have finally
-  decided to move DNS management to cloudflare.
+  I had DNS management managed by my domain registrar `name.com` for more
+  than a decade. Having been exposed to cloudflare for years, I have
+  finally decided to move DNS management to cloudflare.
 ---
 
 {% include toc.html %}
