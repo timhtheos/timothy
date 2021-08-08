@@ -3,7 +3,8 @@ layout: archive
 title: It has been 3 days since
 date: 2016-06-09
 nav_order: -20160609
-parent: 2016
+parent: June
+grand_parent: 2016
 permalink: post/it-has-been-3-days-since
 categories:
   - Personal

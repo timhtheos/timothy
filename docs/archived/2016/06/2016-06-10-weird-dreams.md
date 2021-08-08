@@ -3,7 +3,8 @@ layout: archive
 title: Weird dreams
 date: 2016-06-10
 nav_order: -20160610
-parent: 2016
+parent: June
+grand_parent: 2016
 permalink: post/weird-dreams
 categories:
   - Personal

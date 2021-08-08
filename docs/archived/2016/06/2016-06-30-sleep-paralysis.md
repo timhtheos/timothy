@@ -3,7 +3,8 @@ layout: archive
 title: Sleep paralysis
 date: 2016-06-30
 nav_order: -20160630
-parent: 2016
+parent: June
+grand_parent: 2016
 permalink: post/sleep-paralysis
 categories:
   - Personal

@@ -3,10 +3,12 @@ layout: archive
 title: My name is Tim
 date: 2016-06-15 01
 nav_order: -20160615
-parent: 2016
+parent: June
+grand_parent: 2016
 permalink: post/my-name-is-tim
 categories:
   - Personal
+published: false
 ---
 
 {% include toc.html %}
