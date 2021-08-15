@@ -63,7 +63,7 @@ aux_links:
   "Non-Tech":
     - "/non-tech"
   "Tools":
-    - "/2021/08/tools-i-use"
+    - "/2021/08/tools-updated"
 
 # Makes Aux links open in a new tab. Default is false.
 aux_links_new_tab: false
