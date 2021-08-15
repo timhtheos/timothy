@@ -30,7 +30,7 @@ Plans include the following:
 - Business
 - Enterprise
 
-I signed-up for a `[free plan](https://www.cloudflare.com/en-gb/plans/)`.
+I signed-up for a [free plan](https://www.cloudflare.com/en-gb/plans/).
 
 The `Free` plan includes the following:
 
