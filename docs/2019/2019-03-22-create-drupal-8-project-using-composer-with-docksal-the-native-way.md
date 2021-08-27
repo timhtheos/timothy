@@ -13,6 +13,8 @@ categories:
   - composer
 sticky: true
 teaser: >
+  If you are looking for the native way from scratch to create a Drupal 8 project
+  using composer ran using docksal/cli, this tutorial notes is for you.
 ---
 
 {% include toc.html %}
