@@ -13,13 +13,13 @@ categories:
   - composer
 sticky: true
 teaser: >
-  If you are looking for the native way from scratch to create a Drupal 8 project
-  using composer ran using docksal/cli, this tutorial notes is for you.
+  This is the native way, and from scratch, to create Drupal 8 project using
+  composer ran using docksal/cli.
 ---
 
 {% include toc.html %}
 
-If you want to the following, this tutorial is for you:
+This if for you if you want the following:
 
 * Manual creation of Drupal 8 project from scratch using Composer.
 * Manual initialization of Docksal from scratch.
@@ -30,15 +30,15 @@ To install, follow [official instructions in docksal docs](https://docs.docksal.
 
 For OSX/macOS, I would recommend [Docker Desktop](https://docs.docksal.io/getting-started/setup/#install-macos-docker-for-mac) installation option.
 
-## Start Docksal
+## Manage Docksal
 
-To start Docksal:
+### Start Docksal
 
 ```
 fin system start
 ```
 
-To stop Docksal:
+### Stop Docksal
 
 ```
 fin system stop
@@ -46,24 +46,28 @@ fin system stop
 
 ## Download Drupal 8
 
-We will use `Composer` to download Drupal 8, and we will run `composer` using docksal/cli. Do not use your host `composer`.
+We will use `Composer` to download Drupal 8, and we will run `composer` using docksal/cli.
 
-Create project directory:
+Do not use your host `composer`.
+
+### Create project directory
 ```
 mkdir my-new-project
 ```
 
-Go to project directory:
+### Go to project directory:
 ```
 cd my-new-project
 ```
 
-Download Drupal 8 using composer, and inside docksal:
+### Download Drupal 8 using composer, docksal/cli
 ```
 fin run-cli composer create-project drupal-composer/drupal-project:8.x-dev . --stability dev --no-interaction
 ```
 
 ## Initialize Docksal project
+
+### Create Docksal directory
 
 Inside the project root:
 
@@ -81,25 +85,63 @@ fin config set DOCROOT=docroot
 
 The configuration settings for your docksal can be found inside `.docksal` directory.
 
-## Start your project container
+## Manage Docksal project, container(s)
 
-To start your project:
-
+### Start your project, container(s)
 ```
 fin project start
 ```
 
-To stop your project:
-
+### Stop your project, container(s)
 ```
 fin project stop
 ```
 
+### Remove your project, container(s)
+```
+fin project remove
+```
+
 ## Database config settings
 
-Your database configuration settings would look like this:
+| host | username | password | database |
+|:-----|:---------|:---------|:---------|
+| db | user | user | default |
 
-* host: `db`
-* user: `user`
-* pswd: `user`
-* db: `default`
+## Drush
+
+All `drush` commands must be prefixed with `fin`. For example,
+
+```
+drush cr
+```
+
+would become
+
+```
+fin drush cr
+```
+
+## Composer and other commands
+
+All `composer` commands must also be prefixed with `fin` or `fin exec`. For example,
+
+```
+composer install
+```
+
+would beocme
+
+```
+fin composer install
+```
+
+or
+
+```
+fin exec composer install
+```
+
+Likewise, all other commands must be prefixed with `fin exec`.
+
+`fin exec` is recommended over just `fin` for both `composer` and other commands.
