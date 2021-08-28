@@ -3,8 +3,8 @@ layout: post
 title: Create Drupal 8 project using Composer with Docksal, the native way
 date:   2019-03-22
 nav_order: -20190322
-# parent: March
-# grand_parent: 2019
+parent: March
+grand_parent: 2019
 permalink: /2019/03/create-drupal-8-project-using-composer-with-docksal-the-native-way
 categories:
   - drupal
