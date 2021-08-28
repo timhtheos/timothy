@@ -130,7 +130,7 @@ All `composer` commands must also be prefixed with `fin` or `fin exec`. For exam
 composer install
 ```
 
-would beocme
+would become
 
 ```
 fin composer install
