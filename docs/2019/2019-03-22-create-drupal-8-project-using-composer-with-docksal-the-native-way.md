@@ -55,7 +55,7 @@ Do not use your host `composer`.
 mkdir my-new-project
 ```
 
-### Go to project directory:
+### Go to project directory
 ```
 cd my-new-project
 ```
