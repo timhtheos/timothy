@@ -19,7 +19,7 @@ teaser: >
 
 {% include toc.html %}
 
-This if for you if you want the following:
+This is for you if you want the following:
 
 * Manual creation of Drupal 8 project from scratch using Composer.
 * Manual initialization of Docksal from scratch.
