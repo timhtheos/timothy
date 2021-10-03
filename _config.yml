@@ -129,3 +129,5 @@ disqus:
   url:
     old:  timothy.sh
     new:  timothyae.com
+
+include: [".well-known"]
