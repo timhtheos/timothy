@@ -3,7 +3,7 @@ layout: post
 title: DNS management with Cloudflare, etc
 date:   2021-08-05
 nav_order: -20210805
-# parent: August
+parent: August
 # grand_parent: 2021
 permalink: /2021/08/dns-management-with-cloudflare-etc
 categories:

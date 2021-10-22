@@ -3,7 +3,7 @@ layout: post
 title: Migrate from Netlify to Cloudflare Pages
 date:   2021-08-05
 nav_order: -20210805.1
-# parent: August
+parent: August
 # grand_parent: 2021
 permalink: /2021/08/migrate-from-netlify-to-cloudflare-pages
 categories:
